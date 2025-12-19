@@ -2,7 +2,7 @@ name: Deploy and Update ARSO Data
 
 on:
   push:
-    branches: [ main ]
+    branches: [ master ]
   schedule:
     # Run every 30 minutes
     - cron: '0,30 * * * *'
@@ -49,7 +49,7 @@ jobs:
         uses: ad-m/github-push-action@master
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
-          branch: main
+          branch: master
         
       - name: Setup Pages
         uses: actions/configure-pages@v5
