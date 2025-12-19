@@ -9,7 +9,7 @@ on:
   workflow_dispatch:
 
 permissions:
-  contents: read
+  contents: write
   pages: write
   id-token: write
 
@@ -18,7 +18,7 @@ concurrency:
   cancel-in-progress: false
 
 jobs:
-  deploy:
+  update-and-deploy:
     environment:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}
@@ -26,6 +26,8 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
       
       - name: Setup Node.js
         uses: actions/setup-node@v4
@@ -38,18 +40,17 @@ jobs:
       - name: Run scraper to generate fresh data
         run: node arso-scraper.js
         
-      - name: Commit updated data
+      - name: Commit and push updated data
         run: |
           git config --local user.email "action@github.com"
           git config --local user.name "GitHub Action"
-          git add arso-latest.json arso-data-*.json data-index.json
-          git diff --staged --quiet || git commit -m "Auto-update ARSO data - $(date '+%Y-%m-%d %H:%M:%S')"
-          
-      - name: Push changes
-        uses: ad-m/github-push-action@master
-        with:
-          github_token: ${{ secrets.GITHUB_TOKEN }}
-          branch: master
+          git add arso-latest.json arso-data-*.json data-index.json || true
+          if ! git diff --staged --quiet; then
+            git commit -m "Auto-update ARSO data - $(date '+%Y-%m-%d %H:%M:%S')"
+            git push
+          else
+            echo "No changes to commit"
+          fi
         
       - name: Setup Pages
         uses: actions/configure-pages@v5
