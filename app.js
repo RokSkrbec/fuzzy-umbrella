@@ -7,18 +7,19 @@ L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
   maxZoom: 19
 }).addTo(map);
 
-// Custom icon for water stations
+// Custom icon for water stations (mobile-friendly size)
 const waterIcon = L.icon({
   iconUrl: 'data:image/svg+xml;base64,' + btoa(`
-        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
-            <path d="M12 2C12 2 5 8.5 5 14C5 18.97 8.03 22 12 22C15.97 22 19 18.97 19 14C19 8.5 12 2 12 2Z" 
-                  fill="#3498db" stroke="#2980b9" stroke-width="1.5"/>
-            <ellipse cx="12" cy="16" rx="3" ry="2" fill="#5dade2" opacity="0.6"/>
+        <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 40 40">
+            <path d="M20 3C20 3 8 14 8 23C8 31.28 13.37 37 20 37C26.63 37 32 31.28 32 23C32 14 20 3 20 3Z" 
+                  fill="#3498db" stroke="#2980b9" stroke-width="2"/>
+            <ellipse cx="20" cy="26" rx="5" ry="3" fill="#5dade2" opacity="0.6"/>
+            <circle cx="20" cy="20" r="2" fill="#ffffff" opacity="0.8"/>
         </svg>
     `),
-  iconSize: [24, 24],
-  iconAnchor: [12, 22],
-  popupAnchor: [0, -22]
+  iconSize: [40, 40],
+  iconAnchor: [20, 37],
+  popupAnchor: [0, -37]
 });
 
 // Load geocoded coordinates for fallback data (all stations)
