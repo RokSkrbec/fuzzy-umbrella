@@ -1,0 +1,2607 @@
+{
+  "lastUpdated": "2025-12-19T14:24:03.487Z",
+  "scrapeTimestamp": "2025-12-19T14:24:03.487Z",
+  "hour": 15,
+  "minute": 24,
+  "second": 3,
+  "date": "2025-12-19",
+  "time": "15:24:03",
+  "stationCount": 173,
+  "stations": [
+    {
+      "name": "Gornja Radgona",
+      "river": "Mura",
+      "coordinates": [
+        46.6769963,
+        15.9913176
+      ],
+      "data": {
+        "waterLevel": 74,
+        "flow": 83.6,
+        "temperature": 5.4,
+        "trend": null,
+        "timestamp": "2025-12-19T14:24:03.204Z"
+      }
+    },
+    {
+      "name": "Petanjci",
+      "river": "Mura",
+      "coordinates": [
+        46.651483,
+        16.0645597
+      ],
+      "data": {
+        "waterLevel": 112,
+        "flow": 79.3,
+        "temperature": 4.6,
+        "trend": null,
+        "timestamp": "2025-12-19T14:24:03.209Z"
+      }
+    },
+    {
+      "name": "Cankova",
+      "river": "Kučnica",
+      "coordinates": [
+        46.7184838,
+        16.018699
+      ],
+      "data": {
+        "waterLevel": 77,
+        "flow": 0.024,
+        "temperature": 4.6,
+        "trend": null,
+        "timestamp": "2025-12-19T14:24:03.211Z"
+      }
+    },
+    {
+      "name": "Pristava",
+      "river": "Ščavnica",
+      "coordinates": [
+        45.6307268,
+        14.0125465
+      ],
+      "data": {
+        "waterLevel": 27,
+        "flow": 0.594,
+        "temperature": null,
+        "trend": null,
+        "timestamp": "2025-12-19T14:24:03.212Z"
+      }
+    },
+    {
+      "name": "Nuskova",
+      "river": "Ledava",
+      "coordinates": [
+        46.8100667,
+        16.0222857
+      ],
+      "data": {
+        "waterLevel": 54,
+        "flow": 0.117,
+        "temperature": 4.5,
+        "trend": null,
+        "timestamp": "2025-12-19T14:24:03.214Z"
+      }
+    },
+    {
+      "name": "Polana",
+      "river": "Ledava",
+      "coordinates": [
+        46.485683,
+        15.6091331
+      ],
+      "data": {
+        "waterLevel": 43,
+        "flow": 0.257,
+        "temperature": 4.8,
+        "trend": null,
+        "timestamp": "2025-12-19T14:24:03.215Z"
+      }
+    },
+    {
+      "name": "Čentiba",
+      "river": "Ledava",
+      "coordinates": [
+        46.5523727,
+        16.4826518
+      ],
+      "data": {
+        "waterLevel": 84,
+        "flow": 2.38,
+        "temperature": 7.2,
+        "trend": null,
+        "timestamp": "2025-12-19T14:24:03.217Z"
+      }
+    },
+    {
+      "name": "Martjanci",
+      "river": "Martjanski potok",
+      "coordinates": [
+        46.684924,
+        16.1896103
+      ],
+      "data": {
+        "waterLevel": 42,
+        "flow": 0.023,
+        "temperature": 4.6,
+        "trend": null,
+        "timestamp": "2025-12-19T14:24:03.219Z"
+      }
+    },
+    {
+      "name": "Kobilje",
+      "river": "Kobiljski potok",
+      "coordinates": [
+        46.6849477,
+        16.3922898
+      ],
+      "data": {
+        "waterLevel": 81,
+        "flow": 0.022,
+        "temperature": 4.6,
+        "trend": null,
+        "timestamp": "2025-12-19T14:24:03.220Z"
+      }
+    },
+    {
+      "name": "Središče",
+      "river": "Ivanjševski potok",
+      "coordinates": [
+        46.3891124,
+        16.277099
+      ],
+      "data": {
+        "waterLevel": 22,
+        "flow": 0.02,
+        "temperature": 4.4,
+        "trend": null,
+        "timestamp": "2025-12-19T14:24:03.223Z"
+      }
+    },
+    {
+      "name": "Hodoš",
+      "river": "Velika Krka",
+      "coordinates": [
+        46.8259935,
+        16.3261154
+      ],
+      "data": {
+        "waterLevel": 11,
+        "flow": 0.066,
+        "temperature": 4.4,
+        "trend": null,
+        "timestamp": "2025-12-19T14:24:03.225Z"
+      }
+    },
+    {
+      "name": "Črneče",
+      "river": "Drava",
+      "coordinates": [
+        46.5879722,
+        14.9997275
+      ],
+      "data": {
+        "waterLevel": 541,
+        "flow": 128,
+        "temperature": 4.5,
+        "trend": "pada",
+        "timestamp": "2025-12-19T14:24:03.226Z"
+      }
+    },
+    {
+      "name": "Ptuj",
+      "river": "Drava",
+      "coordinates": [
+        46.4198096,
+        15.8717378
+      ],
+      "data": {
+        "waterLevel": 492,
+        "flow": 61.3,
+        "temperature": 4.1,
+        "trend": "pada",
+        "timestamp": "2025-12-19T14:24:03.227Z"
+      }
+    },
+    {
+      "name": "Borl",
+      "river": "Drava",
+      "coordinates": [
+        46.3747623,
+        16.002785
+      ],
+      "data": {
+        "waterLevel": 69,
+        "flow": null,
+        "temperature": 5.5,
+        "trend": null,
+        "timestamp": "2025-12-19T14:24:03.230Z"
+      }
+    },
+    {
+      "name": "Zavrč",
+      "river": "Drava",
+      "coordinates": [
+        46.3860221,
+        16.0459879
+      ],
+      "data": {
+        "waterLevel": 18,
+        "flow": 19.3,
+        "temperature": 4,
+        "trend": null,
+        "timestamp": "2025-12-19T14:24:03.232Z"
+      }
+    },
+    {
+      "name": "Črna",
+      "river": "Meža",
+      "coordinates": [
+        46.2618343,
+        14.6440056
+      ],
+      "data": {
+        "waterLevel": 53,
+        "flow": 1.28,
+        "temperature": 3.8,
+        "trend": null,
+        "timestamp": "2025-12-19T14:24:03.234Z"
+      }
+    },
+    {
+      "name": "Otiški Vrh",
+      "river": "Meža",
+      "coordinates": [
+        46.5747778,
+        15.0293451
+      ],
+      "data": {
+        "waterLevel": 57,
+        "flow": 5.82,
+        "temperature": 5.3,
+        "trend": null,
+        "timestamp": "2025-12-19T14:24:03.235Z"
+      }
+    },
+    {
+      "name": "Dovže",
+      "river": "Mislinja",
+      "coordinates": [
+        46.4604545,
+        15.1645773
+      ],
+      "data": {
+        "waterLevel": 35,
+        "flow": 1.25,
+        "temperature": 4.7,
+        "trend": null,
+        "timestamp": "2025-12-19T14:24:03.237Z"
+      }
+    },
+    {
+      "name": "Muta",
+      "river": "Bistrica",
+      "coordinates": [
+        46.6093522,
+        15.1655099
+      ],
+      "data": {
+        "waterLevel": 27,
+        "flow": 0.743,
+        "temperature": 3.5,
+        "trend": null,
+        "timestamp": "2025-12-19T14:24:03.246Z"
+      }
+    },
+    {
+      "name": "Ruta",
+      "river": "Radoljna",
+      "coordinates": [
+        46.2239021,
+        13.7456167
+      ],
+      "data": {
+        "waterLevel": 113,
+        "flow": 1.14,
+        "temperature": 3.8,
+        "trend": null,
+        "timestamp": "2025-12-19T14:24:03.248Z"
+      }
+    },
+    {
+      "name": "Zreče",
+      "river": "Dravinja",
+      "coordinates": [
+        46.3716354,
+        15.3900185
+      ],
+      "data": {
+        "waterLevel": 83,
+        "flow": 0.513,
+        "temperature": 6.7,
+        "trend": null,
+        "timestamp": "2025-12-19T14:24:03.249Z"
+      }
+    },
+    {
+      "name": "Loče",
+      "river": "Dravinja",
+      "coordinates": [
+        46.2842778,
+        15.2589807
+      ],
+      "data": {
+        "waterLevel": 142,
+        "flow": 1.53,
+        "temperature": 6.4,
+        "trend": null,
+        "timestamp": "2025-12-19T14:24:03.250Z"
+      }
+    },
+    {
+      "name": "Makole",
+      "river": "Dravinja",
+      "coordinates": [
+        46.3169639,
+        15.6668625
+      ],
+      "data": {
+        "waterLevel": 28,
+        "flow": 2.11,
+        "temperature": 6.1,
+        "trend": null,
+        "timestamp": "2025-12-19T14:24:03.251Z"
+      }
+    },
+    {
+      "name": "Videm",
+      "river": "Dravinja",
+      "coordinates": [
+        46.3429502,
+        15.9322379
+      ],
+      "data": {
+        "waterLevel": 110,
+        "flow": 4.14,
+        "temperature": 5,
+        "trend": null,
+        "timestamp": "2025-12-19T14:24:03.253Z"
+      }
+    },
+    {
+      "name": "Spodnja Ložnica",
+      "river": "Ložnica",
+      "coordinates": [
+        46.3821226,
+        15.5286299
+      ],
+      "data": {
+        "waterLevel": 90,
+        "flow": 0.595,
+        "temperature": 5.3,
+        "trend": null,
+        "timestamp": "2025-12-19T14:24:03.255Z"
+      }
+    },
+    {
+      "name": "Podlehnik",
+      "river": "Rogatnica",
+      "coordinates": [
+        46.3351048,
+        15.8795227
+      ],
+      "data": {
+        "waterLevel": 90,
+        "flow": 0.109,
+        "temperature": 4.4,
+        "trend": null,
+        "timestamp": "2025-12-19T14:24:03.256Z"
+      }
+    },
+    {
+      "name": "Tržec",
+      "river": "Polskava",
+      "coordinates": [
+        46.3639839,
+        15.8774548
+      ],
+      "data": {
+        "waterLevel": 94,
+        "flow": 0.895,
+        "temperature": 4.9,
+        "trend": null,
+        "timestamp": "2025-12-19T14:24:03.258Z"
+      }
+    },
+    {
+      "name": "Ranca",
+      "river": "Pesnica",
+      "coordinates": [
+        45.8045976,
+        14.3678301
+      ],
+      "data": {
+        "waterLevel": 53,
+        "flow": 0.245,
+        "temperature": 3.5,
+        "trend": null,
+        "timestamp": "2025-12-19T14:24:03.259Z"
+      }
+    },
+    {
+      "name": "Gočova",
+      "river": "Pesnica",
+      "coordinates": [
+        46.5468615,
+        15.8681864
+      ],
+      "data": {
+        "waterLevel": 101,
+        "flow": 0.262,
+        "temperature": 4,
+        "trend": null,
+        "timestamp": "2025-12-19T14:24:03.260Z"
+      }
+    },
+    {
+      "name": "Zamušani",
+      "river": "Pesnica",
+      "coordinates": [
+        46.4225055,
+        16.0322338
+      ],
+      "data": {
+        "waterLevel": 99,
+        "flow": 1.7,
+        "temperature": 4.7,
+        "trend": null,
+        "timestamp": "2025-12-19T14:24:03.262Z"
+      }
+    },
+    {
+      "name": "Kranjska Gora",
+      "river": "Sava Dolinka",
+      "coordinates": [
+        46.485132,
+        13.7843957
+      ],
+      "data": {
+        "waterLevel": 141,
+        "flow": 1.16,
+        "temperature": 5.4,
+        "trend": null,
+        "timestamp": "2025-12-19T14:24:03.264Z"
+      }
+    },
+    {
+      "name": "Jesenice",
+      "river": "Sava Dolinka",
+      "coordinates": [
+        46.4323705,
+        14.0623942
+      ],
+      "data": {
+        "waterLevel": 77,
+        "flow": 5.59,
+        "temperature": 6.9,
+        "trend": null,
+        "timestamp": "2025-12-19T14:24:03.265Z"
+      }
+    },
+    {
+      "name": "Hrušica",
+      "river": "Karavanke iztok",
+      "coordinates": [
+        45.851087,
+        14.160466
+      ],
+      "data": {
+        "waterLevel": null,
+        "flow": null,
+        "temperature": null,
+        "trend": null,
+        "timestamp": "2025-12-19T14:24:03.268Z"
+      }
+    },
+    {
+      "name": "Pri žagi",
+      "river": "Završnica",
+      "coordinates": [
+        46.5611421,
+        16.4482461
+      ],
+      "data": {
+        "waterLevel": null,
+        "flow": null,
+        "temperature": null,
+        "trend": null,
+        "timestamp": "2025-12-19T14:24:03.269Z"
+      }
+    },
+    {
+      "name": "Podhom",
+      "river": "Radovna",
+      "coordinates": [
+        46.3874907,
+        14.094283
+      ],
+      "data": {
+        "waterLevel": 109,
+        "flow": 3.62,
+        "temperature": 5.7,
+        "trend": null,
+        "timestamp": "2025-12-19T14:24:03.271Z"
+      }
+    },
+    {
+      "name": "Sveti Janez",
+      "river": "Sava Bohinjka",
+      "coordinates": [
+        46.5797484,
+        15.1317132
+      ],
+      "data": {
+        "waterLevel": null,
+        "flow": null,
+        "temperature": null,
+        "trend": null,
+        "timestamp": "2025-12-19T14:24:03.272Z"
+      }
+    },
+    {
+      "name": "Bodešče",
+      "river": "Sava Bohinjka",
+      "coordinates": [
+        46.3485633,
+        14.1360842
+      ],
+      "data": {
+        "waterLevel": 73,
+        "flow": 7.79,
+        "temperature": 6.9,
+        "trend": null,
+        "timestamp": "2025-12-19T14:24:03.273Z"
+      }
+    },
+    {
+      "name": "Ukanc",
+      "river": "Savica",
+      "coordinates": [
+        46.2792903,
+        13.8299754
+      ],
+      "data": {
+        "waterLevel": 48,
+        "flow": 0.781,
+        "temperature": 5.5,
+        "trend": null,
+        "timestamp": "2025-12-19T14:24:03.274Z"
+      }
+    },
+    {
+      "name": "Sveti Duh",
+      "river": "Bohinjsko jezero",
+      "coordinates": [
+        46.2348418,
+        13.7197586
+      ],
+      "data": {
+        "waterLevel": 19,
+        "flow": null,
+        "temperature": 6.1,
+        "trend": null,
+        "timestamp": "2025-12-19T14:24:03.276Z"
+      }
+    },
+    {
+      "name": "Stara Fužina",
+      "river": "Mostnica",
+      "coordinates": [
+        46.2879339,
+        13.8936598
+      ],
+      "data": {
+        "waterLevel": 110,
+        "flow": 0.859,
+        "temperature": 6.8,
+        "trend": null,
+        "timestamp": "2025-12-19T14:24:03.277Z"
+      }
+    },
+    {
+      "name": "Bohinjska Bistrica",
+      "river": "Bistrica",
+      "coordinates": [
+        46.274266,
+        13.9591646
+      ],
+      "data": {
+        "waterLevel": 52,
+        "flow": 1.81,
+        "temperature": 5.9,
+        "trend": null,
+        "timestamp": "2025-12-19T14:24:03.279Z"
+      }
+    },
+    {
+      "name": "Mlino",
+      "river": "Blejsko jezero",
+      "coordinates": [
+        46.3577798,
+        14.0993695
+      ],
+      "data": {
+        "waterLevel": 44,
+        "flow": null,
+        "temperature": 7.6,
+        "trend": null,
+        "timestamp": "2025-12-19T14:24:03.280Z"
+      }
+    },
+    {
+      "name": "Radovljica",
+      "river": "Sava",
+      "coordinates": [
+        46.343509,
+        14.1720227
+      ],
+      "data": {
+        "waterLevel": 69,
+        "flow": 35,
+        "temperature": 6.6,
+        "trend": "narašča",
+        "timestamp": "2025-12-19T14:24:03.285Z"
+      }
+    },
+    {
+      "name": "Okroglo",
+      "river": "Sava",
+      "coordinates": [
+        46.2584594,
+        14.3204865
+      ],
+      "data": {
+        "waterLevel": 97,
+        "flow": 23.9,
+        "temperature": 6.6,
+        "trend": null,
+        "timestamp": "2025-12-19T14:24:03.286Z"
+      }
+    },
+    {
+      "name": "Medno",
+      "river": "Sava",
+      "coordinates": [
+        46.1222004,
+        14.4390741
+      ],
+      "data": {
+        "waterLevel": null,
+        "flow": null,
+        "temperature": null,
+        "trend": null,
+        "timestamp": "2025-12-19T14:24:03.288Z"
+      }
+    },
+    {
+      "name": "Šentjakob",
+      "river": "Sava",
+      "coordinates": [
+        46.0901236,
+        14.5806172
+      ],
+      "data": {
+        "waterLevel": 300,
+        "flow": 72.2,
+        "temperature": 6.4,
+        "trend": "narašča",
+        "timestamp": "2025-12-19T14:24:03.289Z"
+      }
+    },
+    {
+      "name": "Litija",
+      "river": "Sava",
+      "coordinates": [
+        46.0575677,
+        14.8314192
+      ],
+      "data": {
+        "waterLevel": 56,
+        "flow": 76,
+        "temperature": 7.3,
+        "trend": "pada",
+        "timestamp": "2025-12-19T14:24:03.290Z"
+      }
+    },
+    {
+      "name": "Hrastnik",
+      "river": "Sava",
+      "coordinates": [
+        46.1456196,
+        15.0817358
+      ],
+      "data": {
+        "waterLevel": 223,
+        "flow": 84.7,
+        "temperature": 7.4,
+        "trend": "pada",
+        "timestamp": "2025-12-19T14:24:03.291Z"
+      }
+    },
+    {
+      "name": "Čatež",
+      "river": "Sava",
+      "coordinates": [
+        45.9705365,
+        14.9588038
+      ],
+      "data": {
+        "waterLevel": 122,
+        "flow": 130,
+        "temperature": 7.6,
+        "trend": "narašča",
+        "timestamp": "2025-12-19T14:24:03.293Z"
+      }
+    },
+    {
+      "name": "Jesenice na Dolenjskem",
+      "river": "Sava",
+      "coordinates": [
+        45.859364,
+        15.6890816
+      ],
+      "data": {
+        "waterLevel": 90,
+        "flow": null,
+        "temperature": null,
+        "trend": null,
+        "timestamp": "2025-12-19T14:24:03.294Z"
+      }
+    },
+    {
+      "name": "Ovsiše",
+      "river": "Lipnica",
+      "coordinates": [
+        46.2872421,
+        14.2543486
+      ],
+      "data": {
+        "waterLevel": 107,
+        "flow": 0.653,
+        "temperature": 6.5,
+        "trend": null,
+        "timestamp": "2025-12-19T14:24:03.295Z"
+      }
+    },
+    {
+      "name": "Preska",
+      "river": "Tržiška Bistrica",
+      "coordinates": [
+        45.710302,
+        14.1595496
+      ],
+      "data": {
+        "waterLevel": 70,
+        "flow": 2.98,
+        "temperature": 6.5,
+        "trend": null,
+        "timestamp": "2025-12-19T14:24:03.297Z"
+      }
+    },
+    {
+      "name": "Lajb",
+      "river": "Mošenik",
+      "coordinates": [
+        46.4152726,
+        14.2707291
+      ],
+      "data": {
+        "waterLevel": null,
+        "flow": null,
+        "temperature": null,
+        "trend": null,
+        "timestamp": "2025-12-19T14:24:03.298Z"
+      }
+    },
+    {
+      "name": "Kokra",
+      "river": "Kokra",
+      "coordinates": [
+        46.2659149,
+        14.3981134
+      ],
+      "data": {
+        "waterLevel": 64,
+        "flow": 2,
+        "temperature": 6.1,
+        "trend": null,
+        "timestamp": "2025-12-19T14:24:03.300Z"
+      }
+    },
+    {
+      "name": "Kranj",
+      "river": "Kokra",
+      "coordinates": [
+        46.2432913,
+        14.3549353
+      ],
+      "data": {
+        "waterLevel": 71,
+        "flow": 2.65,
+        "temperature": 5.2,
+        "trend": null,
+        "timestamp": "2025-12-19T14:24:03.301Z"
+      }
+    },
+    {
+      "name": "Suha",
+      "river": "Sora",
+      "coordinates": [
+        46.1647549,
+        14.3243793
+      ],
+      "data": {
+        "waterLevel": 98,
+        "flow": 6.96,
+        "temperature": 7.2,
+        "trend": null,
+        "timestamp": "2025-12-19T14:24:03.302Z"
+      }
+    },
+    {
+      "name": "Medvode",
+      "river": "Sora",
+      "coordinates": [
+        46.1402285,
+        14.4130728
+      ],
+      "data": {
+        "waterLevel": 140,
+        "flow": 34.6,
+        "temperature": 7.3,
+        "trend": null,
+        "timestamp": "2025-12-19T14:24:03.304Z"
+      }
+    },
+    {
+      "name": "Žiri",
+      "river": "Poljanska Sora",
+      "coordinates": [
+        46.0510703,
+        14.1106226
+      ],
+      "data": {
+        "waterLevel": 77,
+        "flow": 0.723,
+        "temperature": 6.1,
+        "trend": null,
+        "timestamp": "2025-12-19T14:24:03.306Z"
+      }
+    },
+    {
+      "name": "Zminec",
+      "river": "Poljanska Sora",
+      "coordinates": [
+        46.1480273,
+        14.284405
+      ],
+      "data": {
+        "waterLevel": 124,
+        "flow": 4.79,
+        "temperature": 6.8,
+        "trend": null,
+        "timestamp": "2025-12-19T14:24:03.307Z"
+      }
+    },
+    {
+      "name": "Železniki",
+      "river": "Selška Sora",
+      "coordinates": [
+        46.2257913,
+        14.1693085
+      ],
+      "data": {
+        "waterLevel": 150,
+        "flow": 1.64,
+        "temperature": 5.8,
+        "trend": null,
+        "timestamp": "2025-12-19T14:24:03.308Z"
+      }
+    },
+    {
+      "name": "Vešter",
+      "river": "Selška Sora",
+      "coordinates": [
+        46.1751053,
+        14.2903138
+      ],
+      "data": {
+        "waterLevel": 84,
+        "flow": 3.05,
+        "temperature": 6.7,
+        "trend": null,
+        "timestamp": "2025-12-19T14:24:03.310Z"
+      }
+    },
+    {
+      "name": "Kamniška Bistrica",
+      "river": "Kamniška Bistrica",
+      "coordinates": [
+        46.2062811,
+        14.6036813
+      ],
+      "data": {
+        "waterLevel": null,
+        "flow": null,
+        "temperature": null,
+        "trend": null,
+        "timestamp": "2025-12-19T14:24:03.311Z"
+      }
+    },
+    {
+      "name": "Kamnik",
+      "river": "Kamniška Bistrica",
+      "coordinates": [
+        46.2257358,
+        14.6118936
+      ],
+      "data": {
+        "waterLevel": 58,
+        "flow": 4.29,
+        "temperature": 6.9,
+        "trend": null,
+        "timestamp": "2025-12-19T14:24:03.312Z"
+      }
+    },
+    {
+      "name": "Vir",
+      "river": "Kamniška Bistrica",
+      "coordinates": [
+        46.1513496,
+        14.6055232
+      ],
+      "data": {
+        "waterLevel": 119,
+        "flow": null,
+        "temperature": 5.2,
+        "trend": null,
+        "timestamp": "2025-12-19T14:24:03.314Z"
+      }
+    },
+    {
+      "name": "Bišče",
+      "river": "Kamniška Bistrica",
+      "coordinates": [
+        46.1030124,
+        14.6129642
+      ],
+      "data": {
+        "waterLevel": 101,
+        "flow": null,
+        "temperature": null,
+        "trend": null,
+        "timestamp": "2025-12-19T14:24:03.315Z"
+      }
+    },
+    {
+      "name": "Nevlje",
+      "river": "Nevljica",
+      "coordinates": [
+        46.2315507,
+        14.6241335
+      ],
+      "data": {
+        "waterLevel": 88,
+        "flow": 0.744,
+        "temperature": 5.8,
+        "trend": null,
+        "timestamp": "2025-12-19T14:24:03.316Z"
+      }
+    },
+    {
+      "name": "Podrečje",
+      "river": "Rača",
+      "coordinates": [
+        46.1440044,
+        14.6105031
+      ],
+      "data": {
+        "waterLevel": 52,
+        "flow": 2.86,
+        "temperature": 6.4,
+        "trend": null,
+        "timestamp": "2025-12-19T14:24:03.318Z"
+      }
+    },
+    {
+      "name": "Topole",
+      "river": "Pšata",
+      "coordinates": [
+        45.8196259,
+        14.2695484
+      ],
+      "data": {
+        "waterLevel": 55,
+        "flow": null,
+        "temperature": 4.6,
+        "trend": null,
+        "timestamp": "2025-12-19T14:24:03.320Z"
+      }
+    },
+    {
+      "name": "Loka",
+      "river": "Pšata",
+      "coordinates": [
+        46.0535988,
+        15.2054717
+      ],
+      "data": {
+        "waterLevel": 20,
+        "flow": 0.285,
+        "temperature": 4.2,
+        "trend": null,
+        "timestamp": "2025-12-19T14:24:03.322Z"
+      }
+    },
+    {
+      "name": "Zagorje",
+      "river": "Medija",
+      "coordinates": [
+        46.1205975,
+        14.9912364
+      ],
+      "data": {
+        "waterLevel": null,
+        "flow": null,
+        "temperature": null,
+        "trend": null,
+        "timestamp": "2025-12-19T14:24:03.323Z"
+      }
+    },
+    {
+      "name": "Žebnik",
+      "river": "Sopota",
+      "coordinates": [
+        46.1372185,
+        14.3520936
+      ],
+      "data": {
+        "waterLevel": 30,
+        "flow": 0.508,
+        "temperature": 8.3,
+        "trend": null,
+        "timestamp": "2025-12-19T14:24:03.324Z"
+      }
+    },
+    {
+      "name": "Martinja vas",
+      "river": "Mirna",
+      "coordinates": [
+        45.9346077,
+        14.9377108
+      ],
+      "data": {
+        "waterLevel": 92,
+        "flow": 0.836,
+        "temperature": 5.2,
+        "trend": null,
+        "timestamp": "2025-12-19T14:24:03.325Z"
+      }
+    },
+    {
+      "name": "Jelovec",
+      "river": "Mirna",
+      "coordinates": [
+        45.9892522,
+        15.2398499
+      ],
+      "data": {
+        "waterLevel": 60,
+        "flow": 1.35,
+        "temperature": 5,
+        "trend": null,
+        "timestamp": "2025-12-19T14:24:03.326Z"
+      }
+    },
+    {
+      "name": "Metni Vrh",
+      "river": "Sevnična",
+      "coordinates": [
+        46.0440563,
+        15.3120748
+      ],
+      "data": {
+        "waterLevel": 36,
+        "flow": 0.245,
+        "temperature": 4.8,
+        "trend": null,
+        "timestamp": "2025-12-19T14:24:03.328Z"
+      }
+    },
+    {
+      "name": "Rogatec",
+      "river": "Sotla",
+      "coordinates": [
+        46.2273681,
+        15.6995714
+      ],
+      "data": {
+        "waterLevel": 35,
+        "flow": 0.12,
+        "temperature": 3.4,
+        "trend": null,
+        "timestamp": "2025-12-19T14:24:03.329Z"
+      }
+    },
+    {
+      "name": "Rakovec",
+      "river": "Sotla",
+      "coordinates": [
+        46.2071721,
+        15.4703647
+      ],
+      "data": {
+        "waterLevel": 31,
+        "flow": 2.58,
+        "temperature": 4.4,
+        "trend": null,
+        "timestamp": "2025-12-19T14:24:03.331Z"
+      }
+    },
+    {
+      "name": "Sodna vas",
+      "river": "Mestinjščica",
+      "coordinates": [
+        46.1753183,
+        15.5967358
+      ],
+      "data": {
+        "waterLevel": null,
+        "flow": null,
+        "temperature": null,
+        "trend": null,
+        "timestamp": "2025-12-19T14:24:03.332Z"
+      }
+    },
+    {
+      "name": "Zagaj",
+      "river": "Bistrica",
+      "coordinates": [
+        45.9426539,
+        15.1027807
+      ],
+      "data": {
+        "waterLevel": 61,
+        "flow": 0.61,
+        "temperature": 5.4,
+        "trend": null,
+        "timestamp": "2025-12-19T14:24:03.333Z"
+      }
+    },
+    {
+      "name": "Petrina",
+      "river": "Kolpa",
+      "coordinates": [
+        45.4650725,
+        14.8530801
+      ],
+      "data": {
+        "waterLevel": 75,
+        "flow": 8.95,
+        "temperature": 7.2,
+        "trend": null,
+        "timestamp": "2025-12-19T14:24:03.334Z"
+      }
+    },
+    {
+      "name": "Sodevci",
+      "river": "Kolpa",
+      "coordinates": [
+        45.4865882,
+        15.0797072
+      ],
+      "data": {
+        "waterLevel": 77,
+        "flow": 17,
+        "temperature": 7.5,
+        "trend": null,
+        "timestamp": "2025-12-19T14:24:03.336Z"
+      }
+    },
+    {
+      "name": "Metlika",
+      "river": "Kolpa",
+      "coordinates": [
+        45.6501029,
+        15.3174483
+      ],
+      "data": {
+        "waterLevel": 35,
+        "flow": 21.9,
+        "temperature": 6.8,
+        "trend": null,
+        "timestamp": "2025-12-19T14:24:03.338Z"
+      }
+    },
+    {
+      "name": "Livold",
+      "river": "Rinža",
+      "coordinates": [
+        45.612285,
+        14.8913762
+      ],
+      "data": {
+        "waterLevel": 81,
+        "flow": 0.01,
+        "temperature": 7.2,
+        "trend": null,
+        "timestamp": "2025-12-19T14:24:03.339Z"
+      }
+    },
+    {
+      "name": "Spodnja Bilpa",
+      "river": "Bilpa",
+      "coordinates": [
+        45.511287,
+        14.9651118
+      ],
+      "data": {
+        "waterLevel": null,
+        "flow": null,
+        "temperature": null,
+        "trend": null,
+        "timestamp": "2025-12-19T14:24:03.341Z"
+      }
+    },
+    {
+      "name": "Gradac",
+      "river": "Lahinja",
+      "coordinates": [
+        45.6143709,
+        15.2447945
+      ],
+      "data": {
+        "waterLevel": 109,
+        "flow": 1.32,
+        "temperature": 6.8,
+        "trend": null,
+        "timestamp": "2025-12-19T14:24:03.342Z"
+      }
+    },
+    {
+      "name": "Vrhnika",
+      "river": "Ljubljanica",
+      "coordinates": [
+        45.9663607,
+        14.2980772
+      ],
+      "data": {
+        "waterLevel": 85,
+        "flow": 5.97,
+        "temperature": 8.3,
+        "trend": null,
+        "timestamp": "2025-12-19T14:24:03.345Z"
+      }
+    },
+    {
+      "name": "Kamin",
+      "river": "Ljubljanica",
+      "coordinates": [
+        46.1632734,
+        14.5715685
+      ],
+      "data": {
+        "waterLevel": 43,
+        "flow": null,
+        "temperature": 7.9,
+        "trend": null,
+        "timestamp": "2025-12-19T14:24:03.346Z"
+      }
+    },
+    {
+      "name": "Moste",
+      "river": "Ljubljanica",
+      "coordinates": [
+        46.0567523,
+        14.5467033
+      ],
+      "data": {
+        "waterLevel": null,
+        "flow": null,
+        "temperature": null,
+        "trend": null,
+        "timestamp": "2025-12-19T14:24:03.348Z"
+      }
+    },
+    {
+      "name": "Verd",
+      "river": "Ljubija",
+      "coordinates": [
+        45.9479373,
+        14.3039444
+      ],
+      "data": {
+        "waterLevel": 164,
+        "flow": 4.18,
+        "temperature": 8,
+        "trend": null,
+        "timestamp": "2025-12-19T14:24:03.349Z"
+      }
+    },
+    {
+      "name": "Bistra",
+      "river": "Bistra",
+      "coordinates": [
+        45.9478239,
+        14.333887
+      ],
+      "data": {
+        "waterLevel": 117,
+        "flow": 5.71,
+        "temperature": 8.3,
+        "trend": null,
+        "timestamp": "2025-12-19T14:24:03.351Z"
+      }
+    },
+    {
+      "name": "Borovnica",
+      "river": "Borovniščica",
+      "coordinates": [
+        45.9194745,
+        14.3637139
+      ],
+      "data": {
+        "waterLevel": 50,
+        "flow": 0.305,
+        "temperature": 8.9,
+        "trend": null,
+        "timestamp": "2025-12-19T14:24:03.353Z"
+      }
+    },
+    {
+      "name": "Iška vas",
+      "river": "Iška",
+      "coordinates": [
+        45.9403653,
+        14.5111952
+      ],
+      "data": {
+        "waterLevel": 159,
+        "flow": 0.298,
+        "temperature": 6.5,
+        "trend": null,
+        "timestamp": "2025-12-19T14:24:03.354Z"
+      }
+    },
+    {
+      "name": "Ig",
+      "river": "Ižica",
+      "coordinates": [
+        45.9592409,
+        14.5276014
+      ],
+      "data": {
+        "waterLevel": 185,
+        "flow": 0.447,
+        "temperature": 8.6,
+        "trend": null,
+        "timestamp": "2025-12-19T14:24:03.356Z"
+      }
+    },
+    {
+      "name": "Bokalce",
+      "river": "Gradaščica",
+      "coordinates": [
+        46.052233,
+        14.4461642
+      ],
+      "data": {
+        "waterLevel": 56,
+        "flow": 1.53,
+        "temperature": 7.2,
+        "trend": null,
+        "timestamp": "2025-12-19T14:24:03.357Z"
+      }
+    },
+    {
+      "name": "Dvor",
+      "river": "Gradaščica",
+      "coordinates": [
+        46.1053735,
+        14.4421322
+      ],
+      "data": {
+        "waterLevel": 81,
+        "flow": 1.04,
+        "temperature": 6.4,
+        "trend": null,
+        "timestamp": "2025-12-19T14:24:03.358Z"
+      }
+    },
+    {
+      "name": "Razori",
+      "river": "Šujica",
+      "coordinates": [
+        46.0491144,
+        14.4376408
+      ],
+      "data": {
+        "waterLevel": 37,
+        "flow": 0.651,
+        "temperature": 6.5,
+        "trend": null,
+        "timestamp": "2025-12-19T14:24:03.359Z"
+      }
+    },
+    {
+      "name": "Vrhnika pri Ložu",
+      "river": "Veliki Obrh",
+      "coordinates": [
+        45.7048778,
+        14.5056502
+      ],
+      "data": {
+        "waterLevel": null,
+        "flow": null,
+        "temperature": null,
+        "trend": null,
+        "timestamp": "2025-12-19T14:24:03.360Z"
+      }
+    },
+    {
+      "name": "Gorenje Jezero",
+      "river": "Stržen",
+      "coordinates": [
+        45.72963,
+        14.4114853
+      ],
+      "data": {
+        "waterLevel": 91,
+        "flow": null,
+        "temperature": 7.5,
+        "trend": null,
+        "timestamp": "2025-12-19T14:24:03.362Z"
+      }
+    },
+    {
+      "name": "Dolenje Jezero",
+      "river": "Stržen",
+      "coordinates": [
+        45.776853,
+        14.3595602
+      ],
+      "data": {
+        "waterLevel": 252,
+        "flow": null,
+        "temperature": 6.4,
+        "trend": null,
+        "timestamp": "2025-12-19T14:24:03.364Z"
+      }
+    },
+    {
+      "name": "Cerknica",
+      "river": "Cerkniščica",
+      "coordinates": [
+        45.7936578,
+        14.361883
+      ],
+      "data": {
+        "waterLevel": 192,
+        "flow": 0.352,
+        "temperature": 6.8,
+        "trend": null,
+        "timestamp": "2025-12-19T14:24:03.366Z"
+      }
+    },
+    {
+      "name": "Prestranek",
+      "river": "Pivka",
+      "coordinates": [
+        45.7285348,
+        14.1855972
+      ],
+      "data": {
+        "waterLevel": null,
+        "flow": 0.001,
+        "temperature": null,
+        "trend": null,
+        "timestamp": "2025-12-19T14:24:03.367Z"
+      }
+    },
+    {
+      "name": "Postojnska jama",
+      "river": "Pivka",
+      "coordinates": [
+        45.7827107,
+        14.2038553
+      ],
+      "data": {
+        "waterLevel": 102,
+        "flow": null,
+        "temperature": 5.5,
+        "trend": null,
+        "timestamp": "2025-12-19T14:24:03.369Z"
+      }
+    },
+    {
+      "name": "Mali Otok",
+      "river": "Nanoščica",
+      "coordinates": [
+        45.7788068,
+        14.178927
+      ],
+      "data": {
+        "waterLevel": 100,
+        "flow": 0.751,
+        "temperature": 5,
+        "trend": null,
+        "timestamp": "2025-12-19T14:24:03.370Z"
+      }
+    },
+    {
+      "name": "Malni",
+      "river": "Malenščica",
+      "coordinates": [
+        45.817249,
+        14.4736468
+      ],
+      "data": {
+        "waterLevel": 108,
+        "flow": 5.87,
+        "temperature": 7.1,
+        "trend": null,
+        "timestamp": "2025-12-19T14:24:03.373Z"
+      }
+    },
+    {
+      "name": "Logatec",
+      "river": "Logaščica",
+      "coordinates": [
+        45.9178067,
+        14.2233802
+      ],
+      "data": {
+        "waterLevel": 124,
+        "flow": 0.134,
+        "temperature": 7.3,
+        "trend": null,
+        "timestamp": "2025-12-19T14:24:03.374Z"
+      }
+    },
+    {
+      "name": "Solčava",
+      "river": "Savinja",
+      "coordinates": [
+        46.4195569,
+        14.6920242
+      ],
+      "data": {
+        "waterLevel": 83,
+        "flow": 1.06,
+        "temperature": 5.4,
+        "trend": null,
+        "timestamp": "2025-12-19T14:24:03.375Z"
+      }
+    },
+    {
+      "name": "Nazarje",
+      "river": "Savinja",
+      "coordinates": [
+        46.3205865,
+        14.9487121
+      ],
+      "data": {
+        "waterLevel": 53,
+        "flow": 7.43,
+        "temperature": 5.8,
+        "trend": null,
+        "timestamp": "2025-12-19T14:24:03.377Z"
+      }
+    },
+    {
+      "name": "Letuš",
+      "river": "Savinja",
+      "coordinates": [
+        46.3168558,
+        15.0210325
+      ],
+      "data": {
+        "waterLevel": 76,
+        "flow": 8.48,
+        "temperature": 4.8,
+        "trend": null,
+        "timestamp": "2025-12-19T14:24:03.378Z"
+      }
+    },
+    {
+      "name": "Medlog",
+      "river": "Savinja",
+      "coordinates": [
+        46.2388291,
+        15.2350734
+      ],
+      "data": {
+        "waterLevel": 145,
+        "flow": null,
+        "temperature": 6.6,
+        "trend": null,
+        "timestamp": "2025-12-19T14:24:03.380Z"
+      }
+    },
+    {
+      "name": "Laško",
+      "river": "Savinja",
+      "coordinates": [
+        46.1537984,
+        15.2354706
+      ],
+      "data": {
+        "waterLevel": 88,
+        "flow": 15.4,
+        "temperature": 6.9,
+        "trend": null,
+        "timestamp": "2025-12-19T14:24:03.383Z"
+      }
+    },
+    {
+      "name": "Veliko Širje",
+      "river": "Savinja",
+      "coordinates": [
+        46.1018608,
+        15.1942901
+      ],
+      "data": {
+        "waterLevel": 179,
+        "flow": 14.4,
+        "temperature": 5.8,
+        "trend": null,
+        "timestamp": "2025-12-19T14:24:03.384Z"
+      }
+    },
+    {
+      "name": "Luče",
+      "river": "Lučnica",
+      "coordinates": [
+        46.3553576,
+        14.7451413
+      ],
+      "data": {
+        "waterLevel": 85,
+        "flow": 0.671,
+        "temperature": 4.6,
+        "trend": null,
+        "timestamp": "2025-12-19T14:24:03.386Z"
+      }
+    },
+    {
+      "name": "Kraše",
+      "river": "Dreta",
+      "coordinates": [
+        46.2868189,
+        14.9068889
+      ],
+      "data": {
+        "waterLevel": 67,
+        "flow": 1.63,
+        "temperature": 5.5,
+        "trend": null,
+        "timestamp": "2025-12-19T14:24:03.388Z"
+      }
+    },
+    {
+      "name": "Velenje",
+      "river": "Paka",
+      "coordinates": [
+        46.3592869,
+        15.1150301
+      ],
+      "data": {
+        "waterLevel": 106,
+        "flow": 0.594,
+        "temperature": 4.5,
+        "trend": null,
+        "timestamp": "2025-12-19T14:24:03.389Z"
+      }
+    },
+    {
+      "name": "Šoštanj",
+      "river": "Paka",
+      "coordinates": [
+        46.3773929,
+        15.0459505
+      ],
+      "data": {
+        "waterLevel": 159,
+        "flow": 0.817,
+        "temperature": 5.5,
+        "trend": null,
+        "timestamp": "2025-12-19T14:24:03.390Z"
+      }
+    },
+    {
+      "name": "Rečica",
+      "river": "Paka",
+      "coordinates": [
+        45.5728329,
+        14.2247924
+      ],
+      "data": {
+        "waterLevel": 86,
+        "flow": 1.44,
+        "temperature": 5.5,
+        "trend": null,
+        "timestamp": "2025-12-19T14:24:03.391Z"
+      }
+    },
+    {
+      "name": "Gaberke",
+      "river": "Velunja",
+      "coordinates": [
+        46.3995693,
+        15.0798653
+      ],
+      "data": {
+        "waterLevel": 122,
+        "flow": 0.243,
+        "temperature": 2.7,
+        "trend": null,
+        "timestamp": "2025-12-19T14:24:03.393Z"
+      }
+    },
+    {
+      "name": "Dolenja vas",
+      "river": "Bolska",
+      "coordinates": [
+        45.8301813,
+        15.2199932
+      ],
+      "data": {
+        "waterLevel": 87,
+        "flow": 1.7,
+        "temperature": 7.7,
+        "trend": null,
+        "timestamp": "2025-12-19T14:24:03.395Z"
+      }
+    },
+    {
+      "name": "Levec",
+      "river": "Ložnica",
+      "coordinates": [
+        46.2407484,
+        15.217976
+      ],
+      "data": {
+        "waterLevel": 55,
+        "flow": 0.561,
+        "temperature": 4.9,
+        "trend": null,
+        "timestamp": "2025-12-19T14:24:03.396Z"
+      }
+    },
+    {
+      "name": "Črnolica",
+      "river": "Voglajna",
+      "coordinates": [
+        46.2031869,
+        15.4189111
+      ],
+      "data": {
+        "waterLevel": 47,
+        "flow": 0.179,
+        "temperature": 4.6,
+        "trend": null,
+        "timestamp": "2025-12-19T14:24:03.398Z"
+      }
+    },
+    {
+      "name": "Celje",
+      "river": "Voglajna",
+      "coordinates": [
+        46.2293889,
+        15.2616828
+      ],
+      "data": {
+        "waterLevel": 79,
+        "flow": null,
+        "temperature": 5.3,
+        "trend": null,
+        "timestamp": "2025-12-19T14:24:03.399Z"
+      }
+    },
+    {
+      "name": "Polže",
+      "river": "Hudinja",
+      "coordinates": [
+        46.3194013,
+        15.2740194
+      ],
+      "data": {
+        "waterLevel": 32,
+        "flow": 0.677,
+        "temperature": 4.9,
+        "trend": null,
+        "timestamp": "2025-12-19T14:24:03.401Z"
+      }
+    },
+    {
+      "name": "Škofja vas",
+      "river": "Hudinja",
+      "coordinates": [
+        46.2690814,
+        15.2907989
+      ],
+      "data": {
+        "waterLevel": 31,
+        "flow": 1.14,
+        "temperature": 4.9,
+        "trend": null,
+        "timestamp": "2025-12-19T14:24:03.402Z"
+      }
+    },
+    {
+      "name": "Podbukovje",
+      "river": "Krka",
+      "coordinates": [
+        45.8756838,
+        14.7815286
+      ],
+      "data": {
+        "waterLevel": 34,
+        "flow": 2.52,
+        "temperature": 9.2,
+        "trend": null,
+        "timestamp": "2025-12-19T14:24:03.405Z"
+      }
+    },
+    {
+      "name": "Soteska",
+      "river": "Krka",
+      "coordinates": [
+        46.232711,
+        14.6504588
+      ],
+      "data": {
+        "waterLevel": 125,
+        "flow": 9.14,
+        "temperature": 8.6,
+        "trend": null,
+        "timestamp": "2025-12-19T14:24:03.406Z"
+      }
+    },
+    {
+      "name": "Gorenja Gomila",
+      "river": "Krka",
+      "coordinates": [
+        45.8642048,
+        15.2868552
+      ],
+      "data": {
+        "waterLevel": 50,
+        "flow": 11.4,
+        "temperature": 7.1,
+        "trend": null,
+        "timestamp": "2025-12-19T14:24:03.408Z"
+      }
+    },
+    {
+      "name": "Podbočje",
+      "river": "Krka",
+      "coordinates": [
+        45.8641442,
+        15.4666945
+      ],
+      "data": {
+        "waterLevel": 79,
+        "flow": 21.4,
+        "temperature": 7.2,
+        "trend": null,
+        "timestamp": "2025-12-19T14:24:03.409Z"
+      }
+    },
+    {
+      "name": "Mlačevo",
+      "river": "Grosupeljščica",
+      "coordinates": [
+        45.9403614,
+        14.6851212
+      ],
+      "data": {
+        "waterLevel": 99,
+        "flow": 0.209,
+        "temperature": 6.9,
+        "trend": null,
+        "timestamp": "2025-12-19T14:24:03.411Z"
+      }
+    },
+    {
+      "name": "Rašica",
+      "river": "Rašica",
+      "coordinates": [
+        46.1357719,
+        14.510431
+      ],
+      "data": {
+        "waterLevel": 73,
+        "flow": 0.631,
+        "temperature": 6.1,
+        "trend": null,
+        "timestamp": "2025-12-19T14:24:03.413Z"
+      }
+    },
+    {
+      "name": "Gradiček",
+      "river": "Poltarica",
+      "coordinates": [
+        45.8884945,
+        14.7691995
+      ],
+      "data": {
+        "waterLevel": null,
+        "flow": null,
+        "temperature": null,
+        "trend": null,
+        "timestamp": "2025-12-19T14:24:03.414Z"
+      }
+    },
+    {
+      "name": "Ivančna Gorica",
+      "river": "Višnjica",
+      "coordinates": [
+        45.9389896,
+        14.8050459
+      ],
+      "data": {
+        "waterLevel": 71,
+        "flow": 0.393,
+        "temperature": 6.4,
+        "trend": null,
+        "timestamp": "2025-12-19T14:24:03.415Z"
+      }
+    },
+    {
+      "name": "Fužina",
+      "river": "Globočec",
+      "coordinates": [
+        45.8623902,
+        14.8313965
+      ],
+      "data": {
+        "waterLevel": null,
+        "flow": null,
+        "temperature": null,
+        "trend": null,
+        "timestamp": "2025-12-19T14:24:03.416Z"
+      }
+    },
+    {
+      "name": "Meniška vas",
+      "river": "Radešca",
+      "coordinates": [
+        45.7603297,
+        15.0382665
+      ],
+      "data": {
+        "waterLevel": 99,
+        "flow": 1.87,
+        "temperature": 8.8,
+        "trend": null,
+        "timestamp": "2025-12-19T14:24:03.417Z"
+      }
+    },
+    {
+      "name": "Rožni Vrh",
+      "river": "Temenica",
+      "coordinates": [
+        46.0441159,
+        14.885687
+      ],
+      "data": {
+        "waterLevel": 127,
+        "flow": 0.173,
+        "temperature": 6,
+        "trend": null,
+        "timestamp": "2025-12-19T14:24:03.419Z"
+      }
+    },
+    {
+      "name": "Prečna",
+      "river": "Prečna",
+      "coordinates": [
+        45.8124417,
+        15.122856
+      ],
+      "data": {
+        "waterLevel": 96,
+        "flow": 0.966,
+        "temperature": 10.6,
+        "trend": null,
+        "timestamp": "2025-12-19T14:24:03.421Z"
+      }
+    },
+    {
+      "name": "Stopiče",
+      "river": "Težka voda",
+      "coordinates": [
+        45.769873,
+        15.2091416
+      ],
+      "data": {
+        "waterLevel": null,
+        "flow": null,
+        "temperature": null,
+        "trend": null,
+        "timestamp": "2025-12-19T14:24:03.422Z"
+      }
+    },
+    {
+      "name": "Škocjan",
+      "river": "Radulja",
+      "coordinates": [
+        45.907782,
+        15.2906185
+      ],
+      "data": {
+        "waterLevel": 74,
+        "flow": 0.55,
+        "temperature": 7.6,
+        "trend": null,
+        "timestamp": "2025-12-19T14:24:03.423Z"
+      }
+    },
+    {
+      "name": "Globočice pri Kostanjevici",
+      "river": "Studena",
+      "coordinates": [
+        45.8402187,
+        15.428918
+      ],
+      "data": {
+        "waterLevel": null,
+        "flow": null,
+        "temperature": null,
+        "trend": null,
+        "timestamp": "2025-12-19T14:24:03.425Z"
+      }
+    },
+    {
+      "name": "Sodražica",
+      "river": "Bistrica",
+      "coordinates": [
+        45.7619709,
+        14.6346442
+      ],
+      "data": {
+        "waterLevel": 95,
+        "flow": 0.314,
+        "temperature": 7.3,
+        "trend": null,
+        "timestamp": "2025-12-19T14:24:03.427Z"
+      }
+    },
+    {
+      "name": "Prigorica",
+      "river": "Ribnica",
+      "coordinates": [
+        45.7132694,
+        14.7495234
+      ],
+      "data": {
+        "waterLevel": 51,
+        "flow": 0.462,
+        "temperature": 5.9,
+        "trend": null,
+        "timestamp": "2025-12-19T14:24:03.428Z"
+      }
+    },
+    {
+      "name": "Blate",
+      "river": "Rakitnica",
+      "coordinates": [
+        45.6984468,
+        14.7446514
+      ],
+      "data": {
+        "waterLevel": 98,
+        "flow": null,
+        "temperature": 7.9,
+        "trend": null,
+        "timestamp": "2025-12-19T14:24:03.429Z"
+      }
+    },
+    {
+      "name": "Kršovec",
+      "river": "Soča",
+      "coordinates": [
+        45.870468,
+        13.7244719
+      ],
+      "data": {
+        "waterLevel": 91,
+        "flow": 4.79,
+        "temperature": 7.7,
+        "trend": null,
+        "timestamp": "2025-12-19T14:24:03.430Z"
+      }
+    },
+    {
+      "name": "Log Čezsoški",
+      "river": "Soča",
+      "coordinates": [
+        46.3109073,
+        13.489501
+      ],
+      "data": {
+        "waterLevel": 76,
+        "flow": null,
+        "temperature": 7.8,
+        "trend": null,
+        "timestamp": "2025-12-19T14:24:03.432Z"
+      }
+    },
+    {
+      "name": "Kobarid",
+      "river": "Soča",
+      "coordinates": [
+        46.2455462,
+        13.57917
+      ],
+      "data": {
+        "waterLevel": 76,
+        "flow": 13.4,
+        "temperature": 7.5,
+        "trend": null,
+        "timestamp": "2025-12-19T14:24:03.433Z"
+      }
+    },
+    {
+      "name": "Solkan",
+      "river": "Soča",
+      "coordinates": [
+        45.9678211,
+        13.6455643
+      ],
+      "data": {
+        "waterLevel": 188,
+        "flow": 17.8,
+        "temperature": 7,
+        "trend": "pada",
+        "timestamp": "2025-12-19T14:24:03.434Z"
+      }
+    },
+    {
+      "name": "Kal-Koritnica",
+      "river": "Koritnica",
+      "coordinates": [
+        46.3367328,
+        13.5797432
+      ],
+      "data": {
+        "waterLevel": null,
+        "flow": null,
+        "temperature": null,
+        "trend": null,
+        "timestamp": "2025-12-19T14:24:03.436Z"
+      }
+    },
+    {
+      "name": "Žaga",
+      "river": "Učja",
+      "coordinates": [
+        46.05367,
+        15.5269523
+      ],
+      "data": {
+        "waterLevel": null,
+        "flow": null,
+        "temperature": null,
+        "trend": null,
+        "timestamp": "2025-12-19T14:24:03.438Z"
+      }
+    },
+    {
+      "name": "Tolmin",
+      "river": "Tolminka",
+      "coordinates": [
+        46.1829212,
+        13.7333382
+      ],
+      "data": {
+        "waterLevel": 79,
+        "flow": 3,
+        "temperature": 7.7,
+        "trend": null,
+        "timestamp": "2025-12-19T14:24:03.439Z"
+      }
+    },
+    {
+      "name": "Podroteja",
+      "river": "Idrijca",
+      "coordinates": [
+        45.9877629,
+        14.0324278
+      ],
+      "data": {
+        "waterLevel": 96,
+        "flow": 6.12,
+        "temperature": 8.7,
+        "trend": null,
+        "timestamp": "2025-12-19T14:24:03.440Z"
+      }
+    },
+    {
+      "name": "Cerkno",
+      "river": "Cerknica",
+      "coordinates": [
+        46.1279639,
+        13.9881168
+      ],
+      "data": {
+        "waterLevel": null,
+        "flow": null,
+        "temperature": null,
+        "trend": null,
+        "timestamp": "2025-12-19T14:24:03.445Z"
+      }
+    },
+    {
+      "name": "Dolenja Trebuša",
+      "river": "Trebuša",
+      "coordinates": [
+        46.0932003,
+        13.8389364
+      ],
+      "data": {
+        "waterLevel": 56,
+        "flow": 0.904,
+        "temperature": 7.2,
+        "trend": null,
+        "timestamp": "2025-12-19T14:24:03.447Z"
+      }
+    },
+    {
+      "name": "Bača pri Modreju",
+      "river": "Bača",
+      "coordinates": [
+        46.1450366,
+        13.7668255
+      ],
+      "data": {
+        "waterLevel": 67,
+        "flow": 4.97,
+        "temperature": 8.7,
+        "trend": null,
+        "timestamp": "2025-12-19T14:24:03.448Z"
+      }
+    },
+    {
+      "name": "Nova Gorica",
+      "river": "Koren",
+      "coordinates": [
+        45.9580549,
+        13.6474706
+      ],
+      "data": {
+        "waterLevel": 96,
+        "flow": 0.085,
+        "temperature": 9.1,
+        "trend": null,
+        "timestamp": "2025-12-19T14:24:03.449Z"
+      }
+    },
+    {
+      "name": "Vipava",
+      "river": "Vipava",
+      "coordinates": [
+        45.8466286,
+        13.961222
+      ],
+      "data": {
+        "waterLevel": 37,
+        "flow": 3.56,
+        "temperature": 9.8,
+        "trend": null,
+        "timestamp": "2025-12-19T14:24:03.450Z"
+      }
+    },
+    {
+      "name": "Dolenje",
+      "river": "Vipava",
+      "coordinates": [
+        45.9246554,
+        13.7619066
+      ],
+      "data": {
+        "waterLevel": 74,
+        "flow": 8.29,
+        "temperature": 10.1,
+        "trend": null,
+        "timestamp": "2025-12-19T14:24:03.451Z"
+      }
+    },
+    {
+      "name": "Zalošče",
+      "river": "Vipava",
+      "coordinates": [
+        45.8873596,
+        13.747656
+      ],
+      "data": {
+        "waterLevel": 88,
+        "flow": 8.54,
+        "temperature": 9.3,
+        "trend": null,
+        "timestamp": "2025-12-19T14:24:03.452Z"
+      }
+    },
+    {
+      "name": "Miren",
+      "river": "Vipava",
+      "coordinates": [
+        45.894339,
+        13.6089235
+      ],
+      "data": {
+        "waterLevel": 108,
+        "flow": 9.57,
+        "temperature": 8.7,
+        "trend": null,
+        "timestamp": "2025-12-19T14:24:03.454Z"
+      }
+    },
+    {
+      "name": "Podnanos",
+      "river": "Močilnik",
+      "coordinates": [
+        45.7972852,
+        13.9724055
+      ],
+      "data": {
+        "waterLevel": 24,
+        "flow": 0.107,
+        "temperature": 10,
+        "trend": null,
+        "timestamp": "2025-12-19T14:24:03.456Z"
+      }
+    },
+    {
+      "name": "Ajdovščina",
+      "river": "Hubelj",
+      "coordinates": [
+        45.8885557,
+        13.9048561
+      ],
+      "data": {
+        "waterLevel": 63,
+        "flow": 3.17,
+        "temperature": 8.4,
+        "trend": null,
+        "timestamp": "2025-12-19T14:24:03.457Z"
+      }
+    },
+    {
+      "name": "Branik",
+      "river": "Branica",
+      "coordinates": [
+        45.8558901,
+        13.7842277
+      ],
+      "data": {
+        "waterLevel": 102,
+        "flow": null,
+        "temperature": 9.7,
+        "trend": null,
+        "timestamp": "2025-12-19T14:24:03.458Z"
+      }
+    },
+    {
+      "name": "Volčja Draga",
+      "river": "Lijak",
+      "coordinates": [
+        45.9058429,
+        13.6756428
+      ],
+      "data": {
+        "waterLevel": 116,
+        "flow": 0.566,
+        "temperature": 9.7,
+        "trend": null,
+        "timestamp": "2025-12-19T14:24:03.460Z"
+      }
+    },
+    {
+      "name": "Neblo",
+      "river": "Reka",
+      "coordinates": [
+        46.0065915,
+        13.5000009
+      ],
+      "data": {
+        "waterLevel": 112,
+        "flow": 0.12,
+        "temperature": 9,
+        "trend": null,
+        "timestamp": "2025-12-19T14:24:03.463Z"
+      }
+    },
+    {
+      "name": "Golo Brdo",
+      "river": "Idrija",
+      "coordinates": [
+        45.5656317,
+        13.8507722
+      ],
+      "data": {
+        "waterLevel": null,
+        "flow": null,
+        "temperature": null,
+        "trend": null,
+        "timestamp": "2025-12-19T14:24:03.464Z"
+      }
+    },
+    {
+      "name": "Potoki",
+      "river": "Nadiža",
+      "coordinates": [
+        46.4156749,
+        14.1199591
+      ],
+      "data": {
+        "waterLevel": 106,
+        "flow": 0.701,
+        "temperature": 6.2,
+        "trend": null,
+        "timestamp": "2025-12-19T14:24:03.467Z"
+      }
+    },
+    {
+      "name": "Trpčane",
+      "river": "Reka",
+      "coordinates": [
+        45.5271926,
+        14.3173784
+      ],
+      "data": {
+        "waterLevel": 96,
+        "flow": 0.079,
+        "temperature": 7.7,
+        "trend": null,
+        "timestamp": "2025-12-19T14:24:03.468Z"
+      }
+    },
+    {
+      "name": "Trnovo",
+      "river": "Reka",
+      "coordinates": [
+        46.041719,
+        14.5038838
+      ],
+      "data": {
+        "waterLevel": 125,
+        "flow": 1.03,
+        "temperature": 8,
+        "trend": null,
+        "timestamp": "2025-12-19T14:24:03.469Z"
+      }
+    },
+    {
+      "name": "Ilirska Bistrica",
+      "river": "Bistrica",
+      "coordinates": [
+        45.5636618,
+        14.2453318
+      ],
+      "data": {
+        "waterLevel": 95,
+        "flow": 0.421,
+        "temperature": 9.1,
+        "trend": null,
+        "timestamp": "2025-12-19T14:24:03.473Z"
+      }
+    },
+    {
+      "name": "Zarečica",
+      "river": "Molja",
+      "coordinates": [
+        45.5586047,
+        14.2239795
+      ],
+      "data": {
+        "waterLevel": 83,
+        "flow": 0.173,
+        "temperature": 6.4,
+        "trend": null,
+        "timestamp": "2025-12-19T14:24:03.474Z"
+      }
+    },
+    {
+      "name": "Kubed",
+      "river": "Rižana",
+      "coordinates": [
+        45.521536,
+        13.8689334
+      ],
+      "data": {
+        "waterLevel": 80,
+        "flow": 0.786,
+        "temperature": 11.2,
+        "trend": null,
+        "timestamp": "2025-12-19T14:24:03.475Z"
+      }
+    },
+    {
+      "name": "Dekani",
+      "river": "Rižana",
+      "coordinates": [
+        45.5483275,
+        13.8103444
+      ],
+      "data": {
+        "waterLevel": 136,
+        "flow": null,
+        "temperature": 10.8,
+        "trend": null,
+        "timestamp": "2025-12-19T14:24:03.477Z"
+      }
+    },
+    {
+      "name": "Šalara",
+      "river": "Badaševica",
+      "coordinates": [
+        45.5305301,
+        13.7398344
+      ],
+      "data": {
+        "waterLevel": 66,
+        "flow": 0.196,
+        "temperature": 11,
+        "trend": null,
+        "timestamp": "2025-12-19T14:24:03.478Z"
+      }
+    },
+    {
+      "name": "Pišine",
+      "river": "Drnica",
+      "coordinates": [
+        45.4653711,
+        13.6496741
+      ],
+      "data": {
+        "waterLevel": 128,
+        "flow": 0.135,
+        "temperature": 12.1,
+        "trend": null,
+        "timestamp": "2025-12-19T14:24:03.479Z"
+      }
+    },
+    {
+      "name": "OB Piran",
+      "river": "Jadransko morje",
+      "coordinates": [
+        45.4807793,
+        13.6204783
+      ],
+      "data": {
+        "waterLevel": null,
+        "flow": null,
+        "temperature": 13.3,
+        "trend": null,
+        "timestamp": "2025-12-19T14:24:03.484Z"
+      }
+    },
+    {
+      "name": "Debeli Rtič",
+      "river": "Jadransko morje",
+      "coordinates": [
+        45.5905438,
+        13.7071679
+      ],
+      "data": {
+        "waterLevel": null,
+        "flow": null,
+        "temperature": null,
+        "trend": null,
+        "timestamp": "2025-12-19T14:24:03.485Z"
+      }
+    }
+  ]
+}

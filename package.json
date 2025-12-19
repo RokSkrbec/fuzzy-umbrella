@@ -1,0 +1,44 @@
+{
+  "name": "arso-water-monitor",
+  "version": "1.2.0",
+  "description": "Modern web application for monitoring Slovenia's water temperatures, levels, and flow rates from ARSO stations",
+  "main": "index.html",
+  "scripts": {
+    "dev": "python3 -m http.server 8000",
+    "serve": "python3 -m http.server 8000",
+    "scrape": "node arso-scraper.js",
+    "scrape:30min": "node arso-scraper.js",
+    "scrape:hourly": "node arso-scraper.js",
+    "start": "node arso-scraper.js",
+    "build": "node arso-scraper.js",
+    "deploy": "./deploy.sh",
+    "update": "./update-data.sh",
+    "install-deps": "npm install"
+  },
+  "dependencies": {
+    "chart.js": "^4.5.1",
+    "jsdom": "^23.0.1"
+  },
+  "devDependencies": {},
+  "keywords": [
+    "arso",
+    "water",
+    "monitoring",
+    "slovenia",
+    "temperature",
+    "leaflet",
+    "charts",
+    "responsive",
+    "glassmorphism"
+  ],
+  "author": "ARSO Water Monitor Team",
+  "license": "MIT",
+  "homepage": "https://rokskrbec.github.io/arso-water-monitor",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/rokskrbec/arso-water-monitor.git"
+  },
+  "bugs": {
+    "url": "https://github.com/rokskrbec/arso-water-monitor/issues"
+  }
+}
