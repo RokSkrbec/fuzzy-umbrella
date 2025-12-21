@@ -206,21 +206,12 @@ async function scrapeARSOData() {
 
     console.log(`Successfully parsed ${stations.length} stations`);
 
-    // Generate detailed timestamp filename
-    const now = new Date();
-    const dateStr = now.toISOString().split('T')[0]; // YYYY-MM-DD
-    const hourStr = now.getHours().toString().padStart(2, '0'); // HH
-    const minuteStr = now.getMinutes().toString().padStart(2, '0'); // MM
-    const secondStr = now.getSeconds().toString().padStart(2, '0'); // SS
-    const timeStr = `${hourStr}:${minuteStr}:${secondStr}`;
-    const filename = `arso-data-${dateStr}-${timeStr}.json`;
-
-    // Save with detailed timestamp
-    saveToJSON(stations, filename);
-
-    // Also save as latest.json for easy access
+    // Save only to arso-latest.json (no more timestamped files)
     saveToJSON(stations, 'arso-latest.json');
 
+    const now = new Date();
+    const timeStr = `${now.getHours().toString().padStart(2, '0')}:${now.getMinutes().toString().padStart(2, '0')}:${now.getSeconds().toString().padStart(2, '0')}`;
+    
     console.log(`\n⏰ Scraping completed at ${now.toLocaleString('sl-SI')} (${timeStr})`);
     console.log(`Found stations with temperature data: ${stations.filter(s => s.data.temperature !== null).length}`);
     console.log(`Found stations with water level data: ${stations.filter(s => s.data.waterLevel !== null).length}`);

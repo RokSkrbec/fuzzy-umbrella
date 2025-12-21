@@ -37,7 +37,7 @@ if "$NODE_PATH" arso-scraper.js >> "$LOG_FILE" 2>&1; then
     
     # Optional: Commit to git if this is a git repository
     if [ -d .git ]; then
-        git add arso-latest.json arso-data-*.json data-index.json 2>/dev/null
+        git add arso-latest.json data-index.json 2>/dev/null
         git commit -m "Auto-update ARSO data - $(date '+%Y-%m-%d %H:%M:%S')" 2>/dev/null
         log "INFO: Changes committed to git"
     fi
@@ -47,11 +47,6 @@ else
     exit 1
 fi
 
-# Clean up old data files (keep last 10 files only)
-find "$PROJECT_DIR" -name "arso-data-*.json" -type f | sort | head -n -10 | xargs rm -f 2>/dev/null || true
-log "INFO: Cleaned up old data files, keeping last 10"
-log "Cleaning up old data files..."
-find "$PROJECT_DIR" -name "arso-data-*.json" -type f | sort | head -n -48 | xargs rm -f 2>/dev/null
-log "Cleanup completed"
+log "Update completed successfully"
 
 log "Update cycle completed"

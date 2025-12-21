@@ -40,17 +40,11 @@ jobs:
       - name: Run scraper to generate fresh data
         run: node arso-scraper.js
         
-      - name: Clean up old data files (keep last 10)
-        run: |
-          # Keep only the last 10 arso-data-*.json files
-          ls -1t arso-data-*.json 2>/dev/null | tail -n +11 | xargs rm -f || true
-          echo "Cleaned up old data files, keeping last 10"
-        
       - name: Commit and push updated data
         run: |
           git config --local user.email "action@github.com"
           git config --local user.name "GitHub Action"
-          git add arso-latest.json arso-data-*.json data-index.json || true
+          git add arso-latest.json data-index.json || true
           if ! git diff --staged --quiet; then
             git commit -m "Auto-update ARSO data - $(date '+%Y-%m-%d %H:%M:%S')"
             git push
