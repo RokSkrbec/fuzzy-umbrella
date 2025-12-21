@@ -7,28 +7,26 @@ L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
   maxZoom: 19
 }).addTo(map);
 
-// River basin classification and colors
+// River basin classification and colors (corrected for Slovenian hydrology)
 const riverBasins = {
-  'Mura': { color: '#FF6B6B', name: 'Mura Basin' },
-  'Drava': { color: '#4ECDC4', name: 'Drava Basin' },
-  'Sava': { color: '#45B7D1', name: 'Sava Basin' },
-  'Sava Dolinka': { color: '#45B7D1', name: 'Sava Basin' },
-  'Sava Bohinjka': { color: '#45B7D1', name: 'Sava Basin' },
-  'Soča': { color: '#96CEB4', name: 'Soča Basin' },
-  'Krka': { color: '#FFEAA7', name: 'Krka Basin' },
-  'Savinja': { color: '#DDA0DD', name: 'Savinja Basin' },
-  'Kolpa': { color: '#F39C12', name: 'Kolpa Basin' },
-  'Ljubljanica': { color: '#A8E6CF', name: 'Ljubljanica Basin' },
-  'Gradaščica': { color: '#A8E6CF', name: 'Ljubljanica Basin' },
-  'Kamniška Bistrica': { color: '#A8E6CF', name: 'Ljubljanica Basin' },
-  'Vipava': { color: '#FFB6C1', name: 'Coastal Rivers' },
-  'Rižana': { color: '#FFB6C1', name: 'Coastal Rivers' },
-  'Reka': { color: '#FFB6C1', name: 'Coastal Rivers' },
-  'Jadransko morje': { color: '#1E90FF', name: 'Adriatic Sea' },
-  'default': { color: '#95A5A6', name: 'Other' }
+  'Mura': { color: '#FF6B6B', name: 'Mura' },
+  'Drava': { color: '#4ECDC4', name: 'Drava' },
+  'Sava': { color: '#45B7D1', name: 'Sava' },
+  'Sava Dolinka': { color: '#45B7D1', name: 'Sava' },
+  'Sava Bohinjka': { color: '#45B7D1', name: 'Sava' },
+  'Soča': { color: '#96CEB4', name: 'Soča' },
+  'Krka': { color: '#FFEAA7', name: 'Krka' },
+  'Savinja': { color: '#DDA0DD', name: 'Savinja' },
+  'Kolpa': { color: '#F39C12', name: 'Kolpa' },
+  'Ljubljanica': { color: '#A8E6CF', name: 'Sava' }, // Ljubljanica is part of Sava basin
+  'Vipava': { color: '#FFB6C1', name: 'Jadransko morje' }, // Coastal rivers drain to Adriatic
+  'Rižana': { color: '#FFB6C1', name: 'Jadransko morje' },
+  'Reka': { color: '#FFB6C1', name: 'Jadransko morje' },
+  'Jadransko morje': { color: '#1E90FF', name: 'Jadransko morje' },
+  'default': { color: '#95A5A6', name: 'Ostalo' }
 };
 
-// Function to determine basin from river name
+// Function to determine basin from river name (corrected classification)
 function getRiverBasin(riverName) {
   if (!riverName) return riverBasins.default;
 
@@ -37,47 +35,93 @@ function getRiverBasin(riverName) {
     return riverBasins[riverName];
   }
 
-  // Partial matches for tributaries
+  // Partial matches for tributaries (corrected according to actual basins)
   const river = riverName.toLowerCase();
 
-  if (river.includes('mura') || river.includes('ledava') || river.includes('krka')) {
+  // Mura basin (northeast Slovenia)
+  if (river.includes('mura') || river.includes('ledava') || river.includes('ščavnica') ||
+    river.includes('kučnica') || river.includes('kobiljski') || river.includes('ivanjševski') ||
+    river.includes('martjanski')) {
     return riverBasins['Mura'];
   }
-  if (river.includes('drava') || river.includes('meža') || river.includes('mislinja') || river.includes('pesnica')) {
+
+  // Drava basin (northern Slovenia) 
+  if (river.includes('drava') || river.includes('meža') || river.includes('mislinja') ||
+    river.includes('pesnica') || river.includes('dravinja') || river.includes('ložnica') ||
+    river.includes('rogatnica') || river.includes('polskava') || river.includes('bistrica') ||
+    river.includes('radoljna')) {
     return riverBasins['Drava'];
   }
-  if (river.includes('sava') || river.includes('kokra') || river.includes('sora') || river.includes('bistrica') ||
-    river.includes('kamniška') || river.includes('nevljica') || river.includes('pšata')) {
+
+  // Sava basin (central Slovenia) - largest basin including Ljubljanica
+  if (river.includes('sava') || river.includes('kokra') || river.includes('sora') ||
+    river.includes('kamniška') || river.includes('nevljica') || river.includes('pšata') ||
+    river.includes('ljubljanica') || river.includes('gradaščica') || river.includes('iška') ||
+    river.includes('ižica') || river.includes('borovniščica') || river.includes('bistra') ||
+    river.includes('ljubija') || river.includes('tržiška') || river.includes('lipnica') ||
+    river.includes('završnica') || river.includes('radovna') || river.includes('mostnica') ||
+    river.includes('blejsko') || river.includes('bohinjsko') || river.includes('savica') ||
+    river.includes('poljanska') || river.includes('selška') || river.includes('rača') ||
+    river.includes('medija') || river.includes('sopota') || river.includes('mirna') ||
+    river.includes('sevnična') || river.includes('sotla') || river.includes('mestinjščica') ||
+    river.includes('grosupeljščica') || river.includes('rašica') || river.includes('poltarica') ||
+    river.includes('višnjica') || river.includes('globočec') || river.includes('radešca') ||
+    river.includes('ribnica') || river.includes('rakitnica') || river.includes('šujica') ||
+    river.includes('stržen') || river.includes('cerkniščica') || river.includes('pivka') ||
+    river.includes('nanoščica') || river.includes('malenščica') || river.includes('logaščica') ||
+    river.includes('veliki obrh')) {
     return riverBasins['Sava'];
   }
-  if (river.includes('soča') || river.includes('tolminka') || river.includes('idrijca') || river.includes('koritnica')) {
+
+  // Soča basin (western Slovenia)
+  if (river.includes('soča') || river.includes('tolminka') || river.includes('idrijca') ||
+    river.includes('koritnica') || river.includes('učja') || river.includes('cerknica') ||
+    river.includes('trebuša') || river.includes('bača') || river.includes('nadiža')) {
     return riverBasins['Soča'];
   }
-  if (river.includes('krka') || river.includes('temenica') || river.includes('radulja')) {
+
+  // Krka basin (southeast Slovenia)
+  if (river.includes('krka') && !river.includes('velika krka')) { // velika krka is in Mura basin
     return riverBasins['Krka'];
   }
-  if (river.includes('savinja') || river.includes('paka') || river.includes('voglajna') || river.includes('hudinja')) {
+  if (river.includes('temenica') || river.includes('radulja') || river.includes('prečna') ||
+    river.includes('težka voda') || river.includes('studena')) {
+    return riverBasins['Krka'];
+  }
+
+  // Savinja basin (north-central Slovenia)
+  if (river.includes('savinja') || river.includes('paka') || river.includes('voglajna') ||
+    river.includes('hudinja') || river.includes('lučnica') || river.includes('dreta') ||
+    river.includes('velunja') || river.includes('bolska') || river.includes('ložnica')) {
     return riverBasins['Savinja'];
   }
-  if (river.includes('kolpa') || river.includes('lahinja')) {
+
+  // Kolpa basin (south Slovenia)
+  if (river.includes('kolpa') || river.includes('lahinja') || river.includes('rinža') ||
+    river.includes('bilpa')) {
     return riverBasins['Kolpa'];
   }
-  if (river.includes('ljubljanica') || river.includes('gradaščica') || river.includes('iška') ||
-    river.includes('ižica') || river.includes('borovniščica')) {
-    return riverBasins['Ljubljanica'];
-  }
+
+  // Coastal rivers (southwest Slovenia - drain directly to Adriatic)
   if (river.includes('vipava') || river.includes('hubelj') || river.includes('branica') ||
-    river.includes('rižana') || river.includes('badaševica') || river.includes('drnica')) {
-    return riverBasins['Vipava'];
+    river.includes('rižana') || river.includes('badaševica') || river.includes('drnica') ||
+    river.includes('reka') || river.includes('lijak') || river.includes('močilnik') ||
+    river.includes('koren') || river.includes('idrija') || river.includes('molja')) {
+    return riverBasins['Jadransko morje'];
   }
+
+  // Adriatic Sea
   if (river.includes('morje') || river.includes('jadransko')) {
     return riverBasins['Jadransko morje'];
   }
 
-  return riverBasins.default;
-}
+  // Special cases
+  if (river.includes('velika krka')) { // This is in Mura basin, not Krka basin
+    return riverBasins['Mura'];
+  }
 
-// Function to create colored icon based on river basin
+  return riverBasins.default;
+}// Function to create colored icon based on river basin
 function createBasinIcon(riverName) {
   const basin = getRiverBasin(riverName);
 
