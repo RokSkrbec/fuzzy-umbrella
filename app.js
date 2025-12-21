@@ -7,6 +7,95 @@ L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
   maxZoom: 19
 }).addTo(map);
 
+// River basin classification and colors
+const riverBasins = {
+  'Mura': { color: '#FF6B6B', name: 'Mura Basin' },
+  'Drava': { color: '#4ECDC4', name: 'Drava Basin' },
+  'Sava': { color: '#45B7D1', name: 'Sava Basin' },
+  'Sava Dolinka': { color: '#45B7D1', name: 'Sava Basin' },
+  'Sava Bohinjka': { color: '#45B7D1', name: 'Sava Basin' },
+  'Soča': { color: '#96CEB4', name: 'Soča Basin' },
+  'Krka': { color: '#FFEAA7', name: 'Krka Basin' },
+  'Savinja': { color: '#DDA0DD', name: 'Savinja Basin' },
+  'Kolpa': { color: '#F39C12', name: 'Kolpa Basin' },
+  'Ljubljanica': { color: '#A8E6CF', name: 'Ljubljanica Basin' },
+  'Gradaščica': { color: '#A8E6CF', name: 'Ljubljanica Basin' },
+  'Kamniška Bistrica': { color: '#A8E6CF', name: 'Ljubljanica Basin' },
+  'Vipava': { color: '#FFB6C1', name: 'Coastal Rivers' },
+  'Rižana': { color: '#FFB6C1', name: 'Coastal Rivers' },
+  'Reka': { color: '#FFB6C1', name: 'Coastal Rivers' },
+  'Jadransko morje': { color: '#1E90FF', name: 'Adriatic Sea' },
+  'default': { color: '#95A5A6', name: 'Other' }
+};
+
+// Function to determine basin from river name
+function getRiverBasin(riverName) {
+  if (!riverName) return riverBasins.default;
+
+  // Direct matches
+  if (riverBasins[riverName]) {
+    return riverBasins[riverName];
+  }
+
+  // Partial matches for tributaries
+  const river = riverName.toLowerCase();
+
+  if (river.includes('mura') || river.includes('ledava') || river.includes('krka')) {
+    return riverBasins['Mura'];
+  }
+  if (river.includes('drava') || river.includes('meža') || river.includes('mislinja') || river.includes('pesnica')) {
+    return riverBasins['Drava'];
+  }
+  if (river.includes('sava') || river.includes('kokra') || river.includes('sora') || river.includes('bistrica') ||
+    river.includes('kamniška') || river.includes('nevljica') || river.includes('pšata')) {
+    return riverBasins['Sava'];
+  }
+  if (river.includes('soča') || river.includes('tolminka') || river.includes('idrijca') || river.includes('koritnica')) {
+    return riverBasins['Soča'];
+  }
+  if (river.includes('krka') || river.includes('temenica') || river.includes('radulja')) {
+    return riverBasins['Krka'];
+  }
+  if (river.includes('savinja') || river.includes('paka') || river.includes('voglajna') || river.includes('hudinja')) {
+    return riverBasins['Savinja'];
+  }
+  if (river.includes('kolpa') || river.includes('lahinja')) {
+    return riverBasins['Kolpa'];
+  }
+  if (river.includes('ljubljanica') || river.includes('gradaščica') || river.includes('iška') ||
+    river.includes('ižica') || river.includes('borovniščica')) {
+    return riverBasins['Ljubljanica'];
+  }
+  if (river.includes('vipava') || river.includes('hubelj') || river.includes('branica') ||
+    river.includes('rižana') || river.includes('badaševica') || river.includes('drnica')) {
+    return riverBasins['Vipava'];
+  }
+  if (river.includes('morje') || river.includes('jadransko')) {
+    return riverBasins['Jadransko morje'];
+  }
+
+  return riverBasins.default;
+}
+
+// Function to create colored icon based on river basin
+function createBasinIcon(riverName) {
+  const basin = getRiverBasin(riverName);
+
+  return L.icon({
+    iconUrl: 'data:image/svg+xml;base64,' + btoa(`
+          <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 40 40">
+              <path d="M20 3C20 3 8 14 8 23C8 31.28 13.37 37 20 37C26.63 37 32 31.28 32 23C32 14 20 3 20 3Z" 
+                    fill="${basin.color}" stroke="#2C3E50" stroke-width="2"/>
+              <ellipse cx="20" cy="26" rx="5" ry="3" fill="#ffffff" opacity="0.4"/>
+              <circle cx="20" cy="20" r="2" fill="#ffffff" opacity="0.9"/>
+          </svg>
+      `),
+    iconSize: [40, 40],
+    iconAnchor: [20, 37],
+    popupAnchor: [0, -37]
+  });
+}
+
 // Custom icon for water stations (mobile-friendly size)
 const waterIcon = L.icon({
   iconUrl: 'data:image/svg+xml;base64,' + btoa(`
@@ -208,6 +297,8 @@ function createPopupContent(station) {
   const content = document.createElement('div');
   content.className = 'popup-content';
 
+  const basin = getRiverBasin(station.data.river);
+
   let html = `<h3>${station.name}</h3>`;
 
   if (station.data) {
@@ -221,6 +312,14 @@ function createPopupContent(station) {
         </div>
       `;
     }
+
+    // Add basin information
+    html += `
+      <div class="data-row">
+        <span class="label" data-icon="🗺️">Porečje</span>
+        <span class="value" style="color: ${basin.color}; font-weight: bold;">${basin.name}</span>
+      </div>
+    `;
 
     if (station.data.temperature !== undefined && station.data.temperature !== null) {
       html += `
@@ -362,7 +461,9 @@ function showErrorMessage(message) {
 // Function to add markers to the map
 function addStationsToMap(stations) {
   stations.forEach(station => {
-    const marker = L.marker(station.coords, { icon: waterIcon }).addTo(map);
+    // Create basin-colored icon based on river name
+    const icon = createBasinIcon(station.data.river);
+    const marker = L.marker(station.coords, { icon: icon }).addTo(map);
 
     marker.bindPopup(() => createPopupContent(station), {
       maxWidth: 300,

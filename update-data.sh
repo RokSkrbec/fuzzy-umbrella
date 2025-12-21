@@ -47,7 +47,9 @@ else
     exit 1
 fi
 
-# Clean up old data files (keep last 48 files = 24 hours of 30-min intervals)
+# Clean up old data files (keep last 10 files only)
+find "$PROJECT_DIR" -name "arso-data-*.json" -type f | sort | head -n -10 | xargs rm -f 2>/dev/null || true
+log "INFO: Cleaned up old data files, keeping last 10"
 log "Cleaning up old data files..."
 find "$PROJECT_DIR" -name "arso-data-*.json" -type f | sort | head -n -48 | xargs rm -f 2>/dev/null
 log "Cleanup completed"
