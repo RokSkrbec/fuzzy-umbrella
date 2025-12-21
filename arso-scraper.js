@@ -211,7 +211,7 @@ async function scrapeARSOData() {
 
     const now = new Date();
     const timeStr = `${now.getHours().toString().padStart(2, '0')}:${now.getMinutes().toString().padStart(2, '0')}:${now.getSeconds().toString().padStart(2, '0')}`;
-    
+
     console.log(`\n⏰ Scraping completed at ${now.toLocaleString('sl-SI')} (${timeStr})`);
     console.log(`Found stations with temperature data: ${stations.filter(s => s.data.temperature !== null).length}`);
     console.log(`Found stations with water level data: ${stations.filter(s => s.data.waterLevel !== null).length}`);
