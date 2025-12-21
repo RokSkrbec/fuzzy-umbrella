@@ -331,12 +331,21 @@
     }
 
     /* Custom Leaflet popup styling */
+    .leaflet-popup-pane {
+      z-index: 1500 !important;
+    }
+
     .leaflet-popup-content-wrapper {
       background: transparent !important;
       border-radius: 20px !important;
       box-shadow: none !important;
       padding: 0 !important;
       overflow: visible !important;
+      z-index: 1500 !important;
+    }
+
+    .leaflet-popup {
+      z-index: 1500 !important;
     }
 
     .leaflet-popup-content {
