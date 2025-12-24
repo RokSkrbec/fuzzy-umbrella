@@ -1,11 +1,11 @@
 {
-  "lastUpdated": "2025-12-24T17:01:36.593Z",
-  "scrapeTimestamp": "2025-12-24T17:01:36.593Z",
+  "lastUpdated": "2025-12-24T17:34:37.334Z",
+  "scrapeTimestamp": "2025-12-24T17:34:37.334Z",
   "hour": 17,
-  "minute": 1,
-  "second": 36,
+  "minute": 34,
+  "second": 37,
   "date": "2025-12-24",
-  "time": "17:01:36",
+  "time": "17:34:37",
   "stationCount": 173,
   "stations": [
     {
@@ -19,8 +19,8 @@
         "waterLevel": 71,
         "flow": 77.7,
         "temperature": 5.1,
-        "trend": null,
-        "timestamp": "2025-12-24T17:01:36.222Z"
+        "trend": "narašča",
+        "timestamp": "2025-12-24T17:34:36.986Z"
       }
     },
     {
@@ -31,11 +31,11 @@
         16.0645597
       ],
       "data": {
-        "waterLevel": 107,
-        "flow": 73.1,
+        "waterLevel": 109,
+        "flow": 75.5,
         "temperature": 4.3,
         "trend": null,
-        "timestamp": "2025-12-24T17:01:36.229Z"
+        "timestamp": "2025-12-24T17:34:36.992Z"
       }
     },
     {
@@ -46,11 +46,11 @@
         16.018699
       ],
       "data": {
-        "waterLevel": 84,
-        "flow": 0.077,
+        "waterLevel": 86,
+        "flow": 0.099,
         "temperature": 3.9,
         "trend": null,
-        "timestamp": "2025-12-24T17:01:36.232Z"
+        "timestamp": "2025-12-24T17:34:36.995Z"
       }
     },
     {
@@ -65,7 +65,7 @@
         "flow": 2.25,
         "temperature": null,
         "trend": null,
-        "timestamp": "2025-12-24T17:01:36.234Z"
+        "timestamp": "2025-12-24T17:34:36.997Z"
       }
     },
     {
@@ -76,11 +76,11 @@
         16.0222857
       ],
       "data": {
-        "waterLevel": 61,
-        "flow": 0.375,
+        "waterLevel": 62,
+        "flow": 0.424,
         "temperature": 3.9,
         "trend": null,
-        "timestamp": "2025-12-24T17:01:36.236Z"
+        "timestamp": "2025-12-24T17:34:37.000Z"
       }
     },
     {
@@ -95,7 +95,7 @@
         "flow": 0.369,
         "temperature": 5.1,
         "trend": null,
-        "timestamp": "2025-12-24T17:01:36.240Z"
+        "timestamp": "2025-12-24T17:34:37.003Z"
       }
     },
     {
@@ -110,7 +110,7 @@
         "flow": 2.82,
         "temperature": 6.7,
         "trend": null,
-        "timestamp": "2025-12-24T17:01:36.243Z"
+        "timestamp": "2025-12-24T17:34:37.006Z"
       }
     },
     {
@@ -123,9 +123,9 @@
       "data": {
         "waterLevel": 50,
         "flow": 0.093,
-        "temperature": 4.4,
+        "temperature": 4.3,
         "trend": null,
-        "timestamp": "2025-12-24T17:01:36.245Z"
+        "timestamp": "2025-12-24T17:34:37.008Z"
       }
     },
     {
@@ -136,11 +136,11 @@
         16.3922898
       ],
       "data": {
-        "waterLevel": 92,
-        "flow": 0.051,
+        "waterLevel": 93,
+        "flow": 0.054,
         "temperature": 4.2,
         "trend": null,
-        "timestamp": "2025-12-24T17:01:36.247Z"
+        "timestamp": "2025-12-24T17:34:37.010Z"
       }
     },
     {
@@ -155,7 +155,7 @@
         "flow": 0.05,
         "temperature": 3.7,
         "trend": null,
-        "timestamp": "2025-12-24T17:01:36.249Z"
+        "timestamp": "2025-12-24T17:34:37.012Z"
       }
     },
     {
@@ -170,7 +170,7 @@
         "flow": 0.262,
         "temperature": 3.8,
         "trend": null,
-        "timestamp": "2025-12-24T17:01:36.251Z"
+        "timestamp": "2025-12-24T17:34:37.014Z"
       }
     },
     {
@@ -182,10 +182,10 @@
       ],
       "data": {
         "waterLevel": 537,
-        "flow": 241,
+        "flow": 219,
         "temperature": 4.3,
         "trend": "narašča",
-        "timestamp": "2025-12-24T17:01:36.253Z"
+        "timestamp": "2025-12-24T17:34:37.016Z"
       }
     },
     {
@@ -196,11 +196,11 @@
         15.8717378
       ],
       "data": {
-        "waterLevel": 509,
-        "flow": 443,
-        "temperature": 4.2,
+        "waterLevel": 506,
+        "flow": 520,
+        "temperature": 4.1,
         "trend": "narašča",
-        "timestamp": "2025-12-24T17:01:36.255Z"
+        "timestamp": "2025-12-24T17:34:37.018Z"
       }
     },
     {
@@ -215,7 +215,7 @@
         "flow": null,
         "temperature": 5.1,
         "trend": null,
-        "timestamp": "2025-12-24T17:01:36.257Z"
+        "timestamp": "2025-12-24T17:34:37.020Z"
       }
     },
     {
@@ -230,7 +230,7 @@
         "flow": null,
         "temperature": null,
         "trend": null,
-        "timestamp": "2025-12-24T17:01:36.259Z"
+        "timestamp": "2025-12-24T17:34:37.022Z"
       }
     },
     {
@@ -245,7 +245,7 @@
         "flow": 1.16,
         "temperature": 1.6,
         "trend": null,
-        "timestamp": "2025-12-24T17:01:36.261Z"
+        "timestamp": "2025-12-24T17:34:37.024Z"
       }
     },
     {
@@ -260,7 +260,7 @@
         "flow": 6.03,
         "temperature": 3.9,
         "trend": null,
-        "timestamp": "2025-12-24T17:01:36.263Z"
+        "timestamp": "2025-12-24T17:34:37.025Z"
       }
     },
     {
@@ -275,7 +275,7 @@
         "flow": 1.25,
         "temperature": 3.2,
         "trend": null,
-        "timestamp": "2025-12-24T17:01:36.265Z"
+        "timestamp": "2025-12-24T17:34:37.028Z"
       }
     },
     {
@@ -290,7 +290,7 @@
         "flow": 0.877,
         "temperature": 2.9,
         "trend": null,
-        "timestamp": "2025-12-24T17:01:36.272Z"
+        "timestamp": "2025-12-24T17:34:37.035Z"
       }
     },
     {
@@ -305,7 +305,7 @@
         "flow": 0.784,
         "temperature": 0,
         "trend": null,
-        "timestamp": "2025-12-24T17:01:36.274Z"
+        "timestamp": "2025-12-24T17:34:37.037Z"
       }
     },
     {
@@ -316,11 +316,11 @@
         15.3900185
       ],
       "data": {
-        "waterLevel": 84,
-        "flow": 0.568,
+        "waterLevel": 83,
+        "flow": 0.513,
         "temperature": 5.2,
         "trend": null,
-        "timestamp": "2025-12-24T17:01:36.276Z"
+        "timestamp": "2025-12-24T17:34:37.038Z"
       }
     },
     {
@@ -331,11 +331,11 @@
         15.2589807
       ],
       "data": {
-        "waterLevel": 150,
-        "flow": 2.5,
+        "waterLevel": 151,
+        "flow": 2.63,
         "temperature": 4.6,
         "trend": null,
-        "timestamp": "2025-12-24T17:01:36.278Z"
+        "timestamp": "2025-12-24T17:34:37.040Z"
       }
     },
     {
@@ -346,11 +346,11 @@
         15.6668625
       ],
       "data": {
-        "waterLevel": 38,
-        "flow": 3.13,
-        "temperature": 3.3,
+        "waterLevel": 40,
+        "flow": 3.36,
+        "temperature": 3.2,
         "trend": null,
-        "timestamp": "2025-12-24T17:01:36.279Z"
+        "timestamp": "2025-12-24T17:34:37.042Z"
       }
     },
     {
@@ -361,11 +361,11 @@
         15.9322379
       ],
       "data": {
-        "waterLevel": 117,
-        "flow": 5.76,
-        "temperature": 4,
+        "waterLevel": 116,
+        "flow": 5.51,
+        "temperature": 3.9,
         "trend": null,
-        "timestamp": "2025-12-24T17:01:36.281Z"
+        "timestamp": "2025-12-24T17:34:37.043Z"
       }
     },
     {
@@ -376,11 +376,11 @@
         15.5286299
       ],
       "data": {
-        "waterLevel": 110,
-        "flow": 1.87,
-        "temperature": 3.8,
+        "waterLevel": 111,
+        "flow": 1.95,
+        "temperature": 3.9,
         "trend": null,
-        "timestamp": "2025-12-24T17:01:36.285Z"
+        "timestamp": "2025-12-24T17:34:37.047Z"
       }
     },
     {
@@ -393,9 +393,9 @@
       "data": {
         "waterLevel": 104,
         "flow": 0.738,
-        "temperature": 2.5,
+        "temperature": 2.4,
         "trend": null,
-        "timestamp": "2025-12-24T17:01:36.286Z"
+        "timestamp": "2025-12-24T17:34:37.049Z"
       }
     },
     {
@@ -406,11 +406,11 @@
         15.8774548
       ],
       "data": {
-        "waterLevel": 97,
-        "flow": 1.1,
-        "temperature": 2.5,
+        "waterLevel": 98,
+        "flow": 1.18,
+        "temperature": 2.3,
         "trend": null,
-        "timestamp": "2025-12-24T17:01:36.288Z"
+        "timestamp": "2025-12-24T17:34:37.051Z"
       }
     },
     {
@@ -421,11 +421,11 @@
         14.3678301
       ],
       "data": {
-        "waterLevel": 71,
-        "flow": 1.06,
+        "waterLevel": 72,
+        "flow": 1.12,
         "temperature": 2.6,
         "trend": null,
-        "timestamp": "2025-12-24T17:01:36.290Z"
+        "timestamp": "2025-12-24T17:34:37.052Z"
       }
     },
     {
@@ -436,11 +436,11 @@
         15.8681864
       ],
       "data": {
-        "waterLevel": 118,
-        "flow": 0.978,
+        "waterLevel": 119,
+        "flow": 1.04,
         "temperature": 3.3,
         "trend": null,
-        "timestamp": "2025-12-24T17:01:36.292Z"
+        "timestamp": "2025-12-24T17:34:37.054Z"
       }
     },
     {
@@ -453,9 +453,9 @@
       "data": {
         "waterLevel": 125,
         "flow": 4.66,
-        "temperature": 3.2,
+        "temperature": 3.3,
         "trend": null,
-        "timestamp": "2025-12-24T17:01:36.293Z"
+        "timestamp": "2025-12-24T17:34:37.056Z"
       }
     },
     {
@@ -470,7 +470,7 @@
         "flow": 0.93,
         "temperature": 5.1,
         "trend": null,
-        "timestamp": "2025-12-24T17:01:36.295Z"
+        "timestamp": "2025-12-24T17:34:37.057Z"
       }
     },
     {
@@ -482,10 +482,10 @@
       ],
       "data": {
         "waterLevel": 78,
-        "flow": null,
+        "flow": 5.64,
         "temperature": 6.9,
         "trend": null,
-        "timestamp": "2025-12-24T17:01:36.297Z"
+        "timestamp": "2025-12-24T17:34:37.059Z"
       }
     },
     {
@@ -500,7 +500,7 @@
         "flow": null,
         "temperature": null,
         "trend": null,
-        "timestamp": "2025-12-24T17:01:36.300Z"
+        "timestamp": "2025-12-24T17:34:37.063Z"
       }
     },
     {
@@ -515,7 +515,7 @@
         "flow": null,
         "temperature": null,
         "trend": null,
-        "timestamp": "2025-12-24T17:01:36.302Z"
+        "timestamp": "2025-12-24T17:34:37.064Z"
       }
     },
     {
@@ -530,7 +530,7 @@
         "flow": 3.34,
         "temperature": 5.2,
         "trend": null,
-        "timestamp": "2025-12-24T17:01:36.304Z"
+        "timestamp": "2025-12-24T17:34:37.066Z"
       }
     },
     {
@@ -545,7 +545,7 @@
         "flow": null,
         "temperature": null,
         "trend": null,
-        "timestamp": "2025-12-24T17:01:36.306Z"
+        "timestamp": "2025-12-24T17:34:37.068Z"
       }
     },
     {
@@ -560,7 +560,7 @@
         "flow": 5.65,
         "temperature": 6.5,
         "trend": null,
-        "timestamp": "2025-12-24T17:01:36.308Z"
+        "timestamp": "2025-12-24T17:34:37.070Z"
       }
     },
     {
@@ -575,7 +575,7 @@
         "flow": 0.506,
         "temperature": 5.3,
         "trend": null,
-        "timestamp": "2025-12-24T17:01:36.309Z"
+        "timestamp": "2025-12-24T17:34:37.072Z"
       }
     },
     {
@@ -586,11 +586,11 @@
         13.7197586
       ],
       "data": {
-        "waterLevel": 17,
+        "waterLevel": 18,
         "flow": null,
         "temperature": 5.8,
         "trend": null,
-        "timestamp": "2025-12-24T17:01:36.311Z"
+        "timestamp": "2025-12-24T17:34:37.073Z"
       }
     },
     {
@@ -605,7 +605,7 @@
         "flow": 0.784,
         "temperature": 6.9,
         "trend": null,
-        "timestamp": "2025-12-24T17:01:36.313Z"
+        "timestamp": "2025-12-24T17:34:37.075Z"
       }
     },
     {
@@ -616,11 +616,11 @@
         13.9591646
       ],
       "data": {
-        "waterLevel": 39,
-        "flow": 0.331,
-        "temperature": 4.5,
+        "waterLevel": 47,
+        "flow": 1.12,
+        "temperature": 5.2,
         "trend": null,
-        "timestamp": "2025-12-24T17:01:36.315Z"
+        "timestamp": "2025-12-24T17:34:37.077Z"
       }
     },
     {
@@ -635,7 +635,7 @@
         "flow": null,
         "temperature": 7.3,
         "trend": null,
-        "timestamp": "2025-12-24T17:01:36.317Z"
+        "timestamp": "2025-12-24T17:34:37.079Z"
       }
     },
     {
@@ -646,11 +646,11 @@
         14.1720227
       ],
       "data": {
-        "waterLevel": 63,
-        "flow": 28.7,
+        "waterLevel": 67,
+        "flow": 32.8,
         "temperature": 6.3,
         "trend": null,
-        "timestamp": "2025-12-24T17:01:36.322Z"
+        "timestamp": "2025-12-24T17:34:37.084Z"
       }
     },
     {
@@ -661,11 +661,11 @@
         14.3204865
       ],
       "data": {
-        "waterLevel": 109,
-        "flow": 30.6,
+        "waterLevel": 108,
+        "flow": 30,
         "temperature": 6.5,
         "trend": "pada",
-        "timestamp": "2025-12-24T17:01:36.324Z"
+        "timestamp": "2025-12-24T17:34:37.086Z"
       }
     },
     {
@@ -680,7 +680,7 @@
         "flow": null,
         "temperature": null,
         "trend": null,
-        "timestamp": "2025-12-24T17:01:36.325Z"
+        "timestamp": "2025-12-24T17:34:37.087Z"
       }
     },
     {
@@ -691,11 +691,11 @@
         14.5806172
       ],
       "data": {
-        "waterLevel": 268,
-        "flow": 38.8,
+        "waterLevel": 270,
+        "flow": 40.5,
         "temperature": 6.7,
-        "trend": null,
-        "timestamp": "2025-12-24T17:01:36.327Z"
+        "trend": "pada",
+        "timestamp": "2025-12-24T17:34:37.089Z"
       }
     },
     {
@@ -706,11 +706,11 @@
         14.8314192
       ],
       "data": {
-        "waterLevel": 60,
-        "flow": 82.7,
-        "temperature": 7.2,
+        "waterLevel": 61,
+        "flow": 84.4,
+        "temperature": 7.1,
         "trend": "narašča",
-        "timestamp": "2025-12-24T17:01:36.329Z"
+        "timestamp": "2025-12-24T17:34:37.091Z"
       }
     },
     {
@@ -725,7 +725,7 @@
         "flow": 79.7,
         "temperature": 7,
         "trend": null,
-        "timestamp": "2025-12-24T17:01:36.331Z"
+        "timestamp": "2025-12-24T17:34:37.093Z"
       }
     },
     {
@@ -736,11 +736,11 @@
         14.9588038
       ],
       "data": {
-        "waterLevel": 125,
-        "flow": 135,
+        "waterLevel": 130,
+        "flow": 145,
         "temperature": 7.6,
         "trend": "narašča",
-        "timestamp": "2025-12-24T17:01:36.333Z"
+        "timestamp": "2025-12-24T17:34:37.094Z"
       }
     },
     {
@@ -751,11 +751,11 @@
         15.6890816
       ],
       "data": {
-        "waterLevel": 93,
+        "waterLevel": null,
         "flow": null,
         "temperature": null,
         "trend": null,
-        "timestamp": "2025-12-24T17:01:36.334Z"
+        "timestamp": "2025-12-24T17:34:37.096Z"
       }
     },
     {
@@ -766,11 +766,11 @@
         14.2543486
       ],
       "data": {
-        "waterLevel": 106,
-        "flow": 0.599,
-        "temperature": 6.4,
+        "waterLevel": 107,
+        "flow": 0.653,
+        "temperature": 6.3,
         "trend": null,
-        "timestamp": "2025-12-24T17:01:36.336Z"
+        "timestamp": "2025-12-24T17:34:37.098Z"
       }
     },
     {
@@ -785,7 +785,7 @@
         "flow": 5.41,
         "temperature": 6.2,
         "trend": null,
-        "timestamp": "2025-12-24T17:01:36.338Z"
+        "timestamp": "2025-12-24T17:34:37.100Z"
       }
     },
     {
@@ -800,7 +800,7 @@
         "flow": null,
         "temperature": null,
         "trend": null,
-        "timestamp": "2025-12-24T17:01:36.340Z"
+        "timestamp": "2025-12-24T17:34:37.101Z"
       }
     },
     {
@@ -815,7 +815,7 @@
         "flow": 1.78,
         "temperature": 5.6,
         "trend": null,
-        "timestamp": "2025-12-24T17:01:36.342Z"
+        "timestamp": "2025-12-24T17:34:37.103Z"
       }
     },
     {
@@ -830,7 +830,7 @@
         "flow": 2.65,
         "temperature": 4.7,
         "trend": null,
-        "timestamp": "2025-12-24T17:01:36.343Z"
+        "timestamp": "2025-12-24T17:34:37.105Z"
       }
     },
     {
@@ -841,11 +841,11 @@
         14.3243793
       ],
       "data": {
-        "waterLevel": 100,
-        "flow": 7.71,
-        "temperature": 6.3,
+        "waterLevel": 101,
+        "flow": 8.11,
+        "temperature": 6.2,
         "trend": null,
-        "timestamp": "2025-12-24T17:01:36.345Z"
+        "timestamp": "2025-12-24T17:34:37.107Z"
       }
     },
     {
@@ -860,7 +860,7 @@
         "flow": null,
         "temperature": 6.4,
         "trend": null,
-        "timestamp": "2025-12-24T17:01:36.347Z"
+        "timestamp": "2025-12-24T17:34:37.109Z"
       }
     },
     {
@@ -875,7 +875,7 @@
         "flow": 0.856,
         "temperature": 4.8,
         "trend": null,
-        "timestamp": "2025-12-24T17:01:36.349Z"
+        "timestamp": "2025-12-24T17:34:37.110Z"
       }
     },
     {
@@ -890,7 +890,7 @@
         "flow": 5.28,
         "temperature": 5.7,
         "trend": null,
-        "timestamp": "2025-12-24T17:01:36.350Z"
+        "timestamp": "2025-12-24T17:34:37.112Z"
       }
     },
     {
@@ -905,7 +905,7 @@
         "flow": 1.64,
         "temperature": 3.7,
         "trend": null,
-        "timestamp": "2025-12-24T17:01:36.352Z"
+        "timestamp": "2025-12-24T17:34:37.114Z"
       }
     },
     {
@@ -920,7 +920,7 @@
         "flow": 3.05,
         "temperature": 5.2,
         "trend": null,
-        "timestamp": "2025-12-24T17:01:36.354Z"
+        "timestamp": "2025-12-24T17:34:37.116Z"
       }
     },
     {
@@ -935,7 +935,7 @@
         "flow": null,
         "temperature": null,
         "trend": null,
-        "timestamp": "2025-12-24T17:01:36.356Z"
+        "timestamp": "2025-12-24T17:34:37.117Z"
       }
     },
     {
@@ -948,9 +948,9 @@
       "data": {
         "waterLevel": 58,
         "flow": 4.29,
-        "temperature": 6.9,
+        "temperature": 6.8,
         "trend": null,
-        "timestamp": "2025-12-24T17:01:36.357Z"
+        "timestamp": "2025-12-24T17:34:37.119Z"
       }
     },
     {
@@ -965,7 +965,7 @@
         "flow": null,
         "temperature": 5.5,
         "trend": null,
-        "timestamp": "2025-12-24T17:01:36.359Z"
+        "timestamp": "2025-12-24T17:34:37.121Z"
       }
     },
     {
@@ -980,7 +980,7 @@
         "flow": null,
         "temperature": null,
         "trend": null,
-        "timestamp": "2025-12-24T17:01:36.361Z"
+        "timestamp": "2025-12-24T17:34:37.122Z"
       }
     },
     {
@@ -991,11 +991,11 @@
         14.6241335
       ],
       "data": {
-        "waterLevel": 90,
-        "flow": 0.962,
-        "temperature": 5.5,
+        "waterLevel": 89,
+        "flow": 0.849,
+        "temperature": 5.4,
         "trend": null,
-        "timestamp": "2025-12-24T17:01:36.363Z"
+        "timestamp": "2025-12-24T17:34:37.124Z"
       }
     },
     {
@@ -1008,9 +1008,9 @@
       "data": {
         "waterLevel": 52,
         "flow": 2.86,
-        "temperature": 5.9,
+        "temperature": 5.8,
         "trend": null,
-        "timestamp": "2025-12-24T17:01:36.366Z"
+        "timestamp": "2025-12-24T17:34:37.128Z"
       }
     },
     {
@@ -1025,7 +1025,7 @@
         "flow": null,
         "temperature": 5,
         "trend": null,
-        "timestamp": "2025-12-24T17:01:36.367Z"
+        "timestamp": "2025-12-24T17:34:37.129Z"
       }
     },
     {
@@ -1040,7 +1040,7 @@
         "flow": 0.394,
         "temperature": 4.8,
         "trend": null,
-        "timestamp": "2025-12-24T17:01:36.369Z"
+        "timestamp": "2025-12-24T17:34:37.131Z"
       }
     },
     {
@@ -1055,7 +1055,7 @@
         "flow": null,
         "temperature": null,
         "trend": null,
-        "timestamp": "2025-12-24T17:01:36.371Z"
+        "timestamp": "2025-12-24T17:34:37.133Z"
       }
     },
     {
@@ -1068,9 +1068,9 @@
       "data": {
         "waterLevel": 31,
         "flow": 0.575,
-        "temperature": 5.3,
+        "temperature": 5.2,
         "trend": null,
-        "timestamp": "2025-12-24T17:01:36.372Z"
+        "timestamp": "2025-12-24T17:34:37.135Z"
       }
     },
     {
@@ -1081,11 +1081,11 @@
         14.9377108
       ],
       "data": {
-        "waterLevel": 104,
-        "flow": 2.02,
-        "temperature": 4.9,
+        "waterLevel": 105,
+        "flow": 2.16,
+        "temperature": 4.8,
         "trend": null,
-        "timestamp": "2025-12-24T17:01:36.374Z"
+        "timestamp": "2025-12-24T17:34:37.136Z"
       }
     },
     {
@@ -1096,11 +1096,11 @@
         15.2398499
       ],
       "data": {
-        "waterLevel": 71,
-        "flow": 2.51,
+        "waterLevel": 72,
+        "flow": 2.64,
         "temperature": 4.9,
         "trend": null,
-        "timestamp": "2025-12-24T17:01:36.376Z"
+        "timestamp": "2025-12-24T17:34:37.138Z"
       }
     },
     {
@@ -1113,9 +1113,9 @@
       "data": {
         "waterLevel": 39,
         "flow": 0.406,
-        "temperature": 4.2,
+        "temperature": 4.1,
         "trend": null,
-        "timestamp": "2025-12-24T17:01:36.378Z"
+        "timestamp": "2025-12-24T17:34:37.140Z"
       }
     },
     {
@@ -1126,11 +1126,11 @@
         15.6995714
       ],
       "data": {
-        "waterLevel": 50,
-        "flow": 0.578,
+        "waterLevel": 49,
+        "flow": 0.538,
         "temperature": 3.3,
         "trend": null,
-        "timestamp": "2025-12-24T17:01:36.379Z"
+        "timestamp": "2025-12-24T17:34:37.142Z"
       }
     },
     {
@@ -1141,11 +1141,11 @@
         15.4703647
       ],
       "data": {
-        "waterLevel": 48,
-        "flow": 5.89,
-        "temperature": 4.1,
+        "waterLevel": 50,
+        "flow": 6.36,
+        "temperature": 4,
         "trend": null,
-        "timestamp": "2025-12-24T17:01:36.381Z"
+        "timestamp": "2025-12-24T17:34:37.143Z"
       }
     },
     {
@@ -1160,7 +1160,7 @@
         "flow": null,
         "temperature": null,
         "trend": null,
-        "timestamp": "2025-12-24T17:01:36.383Z"
+        "timestamp": "2025-12-24T17:34:37.145Z"
       }
     },
     {
@@ -1173,9 +1173,9 @@
       "data": {
         "waterLevel": 66,
         "flow": 1.05,
-        "temperature": 2.8,
+        "temperature": 2.7,
         "trend": null,
-        "timestamp": "2025-12-24T17:01:36.384Z"
+        "timestamp": "2025-12-24T17:34:37.147Z"
       }
     },
     {
@@ -1190,7 +1190,7 @@
         "flow": 12.1,
         "temperature": 5.4,
         "trend": null,
-        "timestamp": "2025-12-24T17:01:36.386Z"
+        "timestamp": "2025-12-24T17:34:37.149Z"
       }
     },
     {
@@ -1203,9 +1203,9 @@
       "data": {
         "waterLevel": 82,
         "flow": 20.9,
-        "temperature": 8.5,
+        "temperature": 8.4,
         "trend": null,
-        "timestamp": "2025-12-24T17:01:36.388Z"
+        "timestamp": "2025-12-24T17:34:37.150Z"
       }
     },
     {
@@ -1218,9 +1218,9 @@
       "data": {
         "waterLevel": 44,
         "flow": 29.2,
-        "temperature": 6.9,
+        "temperature": 6.8,
         "trend": null,
-        "timestamp": "2025-12-24T17:01:36.389Z"
+        "timestamp": "2025-12-24T17:34:37.152Z"
       }
     },
     {
@@ -1235,7 +1235,7 @@
         "flow": 0.017,
         "temperature": 5.1,
         "trend": null,
-        "timestamp": "2025-12-24T17:01:36.391Z"
+        "timestamp": "2025-12-24T17:34:37.154Z"
       }
     },
     {
@@ -1250,7 +1250,7 @@
         "flow": null,
         "temperature": null,
         "trend": null,
-        "timestamp": "2025-12-24T17:01:36.393Z"
+        "timestamp": "2025-12-24T17:34:37.156Z"
       }
     },
     {
@@ -1261,11 +1261,11 @@
         15.2447945
       ],
       "data": {
-        "waterLevel": 116,
-        "flow": 3.06,
+        "waterLevel": 117,
+        "flow": 3.4,
         "temperature": 7,
         "trend": null,
-        "timestamp": "2025-12-24T17:01:36.394Z"
+        "timestamp": "2025-12-24T17:34:37.157Z"
       }
     },
     {
@@ -1280,7 +1280,7 @@
         "flow": 5.5,
         "temperature": 8.4,
         "trend": null,
-        "timestamp": "2025-12-24T17:01:36.398Z"
+        "timestamp": "2025-12-24T17:34:37.161Z"
       }
     },
     {
@@ -1291,11 +1291,11 @@
         14.5715685
       ],
       "data": {
-        "waterLevel": 42,
+        "waterLevel": 43,
         "flow": null,
         "temperature": 7.2,
         "trend": null,
-        "timestamp": "2025-12-24T17:01:36.399Z"
+        "timestamp": "2025-12-24T17:34:37.162Z"
       }
     },
     {
@@ -1310,7 +1310,7 @@
         "flow": null,
         "temperature": null,
         "trend": null,
-        "timestamp": "2025-12-24T17:01:36.401Z"
+        "timestamp": "2025-12-24T17:34:37.164Z"
       }
     },
     {
@@ -1325,7 +1325,7 @@
         "flow": 3.65,
         "temperature": 8,
         "trend": null,
-        "timestamp": "2025-12-24T17:01:36.403Z"
+        "timestamp": "2025-12-24T17:34:37.166Z"
       }
     },
     {
@@ -1340,7 +1340,7 @@
         "flow": 5.36,
         "temperature": 8.3,
         "trend": null,
-        "timestamp": "2025-12-24T17:01:36.404Z"
+        "timestamp": "2025-12-24T17:34:37.168Z"
       }
     },
     {
@@ -1353,9 +1353,9 @@
       "data": {
         "waterLevel": 54,
         "flow": 0.502,
-        "temperature": 6,
+        "temperature": 5.9,
         "trend": null,
-        "timestamp": "2025-12-24T17:01:36.406Z"
+        "timestamp": "2025-12-24T17:34:37.169Z"
       }
     },
     {
@@ -1368,9 +1368,9 @@
       "data": {
         "waterLevel": 161,
         "flow": 0.382,
-        "temperature": 3.5,
+        "temperature": 3.3,
         "trend": null,
-        "timestamp": "2025-12-24T17:01:36.408Z"
+        "timestamp": "2025-12-24T17:34:37.171Z"
       }
     },
     {
@@ -1383,9 +1383,9 @@
       "data": {
         "waterLevel": 187,
         "flow": 0.486,
-        "temperature": 8.2,
+        "temperature": 8.1,
         "trend": null,
-        "timestamp": "2025-12-24T17:01:36.410Z"
+        "timestamp": "2025-12-24T17:34:37.173Z"
       }
     },
     {
@@ -1398,9 +1398,9 @@
       "data": {
         "waterLevel": 59,
         "flow": 2.3,
-        "temperature": 6.1,
+        "temperature": 6,
         "trend": null,
-        "timestamp": "2025-12-24T17:01:36.411Z"
+        "timestamp": "2025-12-24T17:34:37.175Z"
       }
     },
     {
@@ -1413,9 +1413,9 @@
       "data": {
         "waterLevel": 87,
         "flow": 1.67,
-        "temperature": 4.9,
+        "temperature": 4.8,
         "trend": null,
-        "timestamp": "2025-12-24T17:01:36.413Z"
+        "timestamp": "2025-12-24T17:34:37.177Z"
       }
     },
     {
@@ -1426,11 +1426,11 @@
         14.4376408
       ],
       "data": {
-        "waterLevel": 44,
-        "flow": 1.15,
-        "temperature": 6,
+        "waterLevel": 45,
+        "flow": 1.22,
+        "temperature": 5.9,
         "trend": null,
-        "timestamp": "2025-12-24T17:01:36.415Z"
+        "timestamp": "2025-12-24T17:34:37.179Z"
       }
     },
     {
@@ -1445,7 +1445,7 @@
         "flow": null,
         "temperature": null,
         "trend": null,
-        "timestamp": "2025-12-24T17:01:36.416Z"
+        "timestamp": "2025-12-24T17:34:37.180Z"
       }
     },
     {
@@ -1458,9 +1458,9 @@
       "data": {
         "waterLevel": 70,
         "flow": null,
-        "temperature": 7.2,
+        "temperature": 7.1,
         "trend": null,
-        "timestamp": "2025-12-24T17:01:36.418Z"
+        "timestamp": "2025-12-24T17:34:37.182Z"
       }
     },
     {
@@ -1471,11 +1471,11 @@
         14.3595602
       ],
       "data": {
-        "waterLevel": 224,
+        "waterLevel": 223,
         "flow": null,
         "temperature": 3.5,
         "trend": null,
-        "timestamp": "2025-12-24T17:01:36.420Z"
+        "timestamp": "2025-12-24T17:34:37.184Z"
       }
     },
     {
@@ -1488,9 +1488,9 @@
       "data": {
         "waterLevel": 192,
         "flow": 0.352,
-        "temperature": 3,
+        "temperature": 2.9,
         "trend": null,
-        "timestamp": "2025-12-24T17:01:36.421Z"
+        "timestamp": "2025-12-24T17:34:37.185Z"
       }
     },
     {
@@ -1505,7 +1505,7 @@
         "flow": 0.001,
         "temperature": null,
         "trend": null,
-        "timestamp": "2025-12-24T17:01:36.423Z"
+        "timestamp": "2025-12-24T17:34:37.187Z"
       }
     },
     {
@@ -1516,11 +1516,11 @@
         14.2038553
       ],
       "data": {
-        "waterLevel": 101,
+        "waterLevel": 102,
         "flow": null,
         "temperature": 4.6,
         "trend": null,
-        "timestamp": "2025-12-24T17:01:36.425Z"
+        "timestamp": "2025-12-24T17:34:37.189Z"
       }
     },
     {
@@ -1533,9 +1533,9 @@
       "data": {
         "waterLevel": 99,
         "flow": 0.671,
-        "temperature": 4.3,
+        "temperature": 4.2,
         "trend": null,
-        "timestamp": "2025-12-24T17:01:36.426Z"
+        "timestamp": "2025-12-24T17:34:37.191Z"
       }
     },
     {
@@ -1546,11 +1546,11 @@
         14.4736468
       ],
       "data": {
-        "waterLevel": 98,
-        "flow": 4.96,
+        "waterLevel": 99,
+        "flow": 5.05,
         "temperature": 7,
         "trend": null,
-        "timestamp": "2025-12-24T17:01:36.430Z"
+        "timestamp": "2025-12-24T17:34:37.194Z"
       }
     },
     {
@@ -1563,9 +1563,9 @@
       "data": {
         "waterLevel": 126,
         "flow": 0.21,
-        "temperature": 3.4,
+        "temperature": 3.3,
         "trend": null,
-        "timestamp": "2025-12-24T17:01:36.431Z"
+        "timestamp": "2025-12-24T17:34:37.196Z"
       }
     },
     {
@@ -1578,9 +1578,9 @@
       "data": {
         "waterLevel": 81,
         "flow": 0.824,
-        "temperature": 5,
+        "temperature": 4.9,
         "trend": null,
-        "timestamp": "2025-12-24T17:01:36.433Z"
+        "timestamp": "2025-12-24T17:34:37.198Z"
       }
     },
     {
@@ -1593,9 +1593,9 @@
       "data": {
         "waterLevel": 54,
         "flow": 7.75,
-        "temperature": 4.8,
+        "temperature": 4.7,
         "trend": null,
-        "timestamp": "2025-12-24T17:01:36.436Z"
+        "timestamp": "2025-12-24T17:34:37.199Z"
       }
     },
     {
@@ -1610,7 +1610,7 @@
         "flow": 9.28,
         "temperature": 4.2,
         "trend": null,
-        "timestamp": "2025-12-24T17:01:36.439Z"
+        "timestamp": "2025-12-24T17:34:37.201Z"
       }
     },
     {
@@ -1621,11 +1621,11 @@
         15.2350734
       ],
       "data": {
-        "waterLevel": 150,
+        "waterLevel": 151,
         "flow": null,
         "temperature": 5.3,
         "trend": null,
-        "timestamp": "2025-12-24T17:01:36.441Z"
+        "timestamp": "2025-12-24T17:34:37.203Z"
       }
     },
     {
@@ -1638,9 +1638,9 @@
       "data": {
         "waterLevel": 97,
         "flow": 20.9,
-        "temperature": 5.3,
+        "temperature": 5.2,
         "trend": null,
-        "timestamp": "2025-12-24T17:01:36.447Z"
+        "timestamp": "2025-12-24T17:34:37.206Z"
       }
     },
     {
@@ -1655,7 +1655,7 @@
         "flow": 21.3,
         "temperature": 5.5,
         "trend": null,
-        "timestamp": "2025-12-24T17:01:36.451Z"
+        "timestamp": "2025-12-24T17:34:37.208Z"
       }
     },
     {
@@ -1666,11 +1666,11 @@
         14.7451413
       ],
       "data": {
-        "waterLevel": 83,
-        "flow": 0.513,
+        "waterLevel": 84,
+        "flow": 0.587,
         "temperature": 4.2,
         "trend": null,
-        "timestamp": "2025-12-24T17:01:36.454Z"
+        "timestamp": "2025-12-24T17:34:37.210Z"
       }
     },
     {
@@ -1685,7 +1685,7 @@
         "flow": 1.91,
         "temperature": 3.8,
         "trend": null,
-        "timestamp": "2025-12-24T17:01:36.457Z"
+        "timestamp": "2025-12-24T17:34:37.212Z"
       }
     },
     {
@@ -1696,11 +1696,11 @@
         15.1150301
       ],
       "data": {
-        "waterLevel": 105,
-        "flow": 0.546,
-        "temperature": 4.1,
+        "waterLevel": 106,
+        "flow": 0.594,
+        "temperature": 4.2,
         "trend": null,
-        "timestamp": "2025-12-24T17:01:36.460Z"
+        "timestamp": "2025-12-24T17:34:37.213Z"
       }
     },
     {
@@ -1711,11 +1711,11 @@
         15.0459505
       ],
       "data": {
-        "waterLevel": 164,
-        "flow": 1.35,
+        "waterLevel": 162,
+        "flow": 1.12,
         "temperature": 5.9,
         "trend": null,
-        "timestamp": "2025-12-24T17:01:36.462Z"
+        "timestamp": "2025-12-24T17:34:37.215Z"
       }
     },
     {
@@ -1730,7 +1730,7 @@
         "flow": 2.43,
         "temperature": 5.4,
         "trend": null,
-        "timestamp": "2025-12-24T17:01:36.465Z"
+        "timestamp": "2025-12-24T17:34:37.217Z"
       }
     },
     {
@@ -1743,9 +1743,9 @@
       "data": {
         "waterLevel": 122,
         "flow": 0.243,
-        "temperature": 3.1,
+        "temperature": 3,
         "trend": null,
-        "timestamp": "2025-12-24T17:01:36.468Z"
+        "timestamp": "2025-12-24T17:34:37.218Z"
       }
     },
     {
@@ -1758,9 +1758,9 @@
       "data": {
         "waterLevel": 94,
         "flow": 2.77,
-        "temperature": 4.5,
+        "temperature": 4.4,
         "trend": null,
-        "timestamp": "2025-12-24T17:01:36.471Z"
+        "timestamp": "2025-12-24T17:34:37.220Z"
       }
     },
     {
@@ -1771,11 +1771,11 @@
         15.217976
       ],
       "data": {
-        "waterLevel": 67,
-        "flow": 1.27,
+        "waterLevel": 68,
+        "flow": 1.34,
         "temperature": 4.6,
         "trend": null,
-        "timestamp": "2025-12-24T17:01:36.474Z"
+        "timestamp": "2025-12-24T17:34:37.222Z"
       }
     },
     {
@@ -1790,7 +1790,7 @@
         "flow": 0.534,
         "temperature": 3.9,
         "trend": null,
-        "timestamp": "2025-12-24T17:01:36.477Z"
+        "timestamp": "2025-12-24T17:34:37.223Z"
       }
     },
     {
@@ -1801,11 +1801,11 @@
         15.2616828
       ],
       "data": {
-        "waterLevel": 100,
+        "waterLevel": 102,
         "flow": null,
         "temperature": 4.5,
         "trend": null,
-        "timestamp": "2025-12-24T17:01:36.480Z"
+        "timestamp": "2025-12-24T17:34:37.225Z"
       }
     },
     {
@@ -1820,7 +1820,7 @@
         "flow": 0.97,
         "temperature": 4.2,
         "trend": null,
-        "timestamp": "2025-12-24T17:01:36.482Z"
+        "timestamp": "2025-12-24T17:34:37.227Z"
       }
     },
     {
@@ -1835,7 +1835,7 @@
         "flow": 3.46,
         "temperature": 5.2,
         "trend": null,
-        "timestamp": "2025-12-24T17:01:36.483Z"
+        "timestamp": "2025-12-24T17:34:37.229Z"
       }
     },
     {
@@ -1848,9 +1848,9 @@
       "data": {
         "waterLevel": 33,
         "flow": 2.37,
-        "temperature": 9,
+        "temperature": 8.9,
         "trend": null,
-        "timestamp": "2025-12-24T17:01:36.487Z"
+        "timestamp": "2025-12-24T17:34:37.232Z"
       }
     },
     {
@@ -1863,9 +1863,9 @@
       "data": {
         "waterLevel": 124,
         "flow": 8.84,
-        "temperature": 8.2,
+        "temperature": 8.1,
         "trend": null,
-        "timestamp": "2025-12-24T17:01:36.488Z"
+        "timestamp": "2025-12-24T17:34:37.234Z"
       }
     },
     {
@@ -1880,7 +1880,7 @@
         "flow": 12.6,
         "temperature": 6.1,
         "trend": null,
-        "timestamp": "2025-12-24T17:01:36.490Z"
+        "timestamp": "2025-12-24T17:34:37.235Z"
       }
     },
     {
@@ -1895,7 +1895,7 @@
         "flow": 23.7,
         "temperature": 7,
         "trend": null,
-        "timestamp": "2025-12-24T17:01:36.492Z"
+        "timestamp": "2025-12-24T17:34:37.237Z"
       }
     },
     {
@@ -1910,7 +1910,7 @@
         "flow": 0.35,
         "temperature": 5.3,
         "trend": null,
-        "timestamp": "2025-12-24T17:01:36.494Z"
+        "timestamp": "2025-12-24T17:34:37.239Z"
       }
     },
     {
@@ -1925,7 +1925,7 @@
         "flow": 0.819,
         "temperature": 2.9,
         "trend": null,
-        "timestamp": "2025-12-24T17:01:36.496Z"
+        "timestamp": "2025-12-24T17:34:37.240Z"
       }
     },
     {
@@ -1940,7 +1940,7 @@
         "flow": null,
         "temperature": null,
         "trend": null,
-        "timestamp": "2025-12-24T17:01:36.497Z"
+        "timestamp": "2025-12-24T17:34:37.242Z"
       }
     },
     {
@@ -1951,11 +1951,11 @@
         14.8050459
       ],
       "data": {
-        "waterLevel": 72,
-        "flow": 0.422,
-        "temperature": 4,
+        "waterLevel": 73,
+        "flow": 0.453,
+        "temperature": 3.9,
         "trend": null,
-        "timestamp": "2025-12-24T17:01:36.500Z"
+        "timestamp": "2025-12-24T17:34:37.244Z"
       }
     },
     {
@@ -1970,7 +1970,7 @@
         "flow": null,
         "temperature": null,
         "trend": null,
-        "timestamp": "2025-12-24T17:01:36.501Z"
+        "timestamp": "2025-12-24T17:34:37.246Z"
       }
     },
     {
@@ -1985,7 +1985,7 @@
         "flow": 1.94,
         "temperature": 8.3,
         "trend": null,
-        "timestamp": "2025-12-24T17:01:36.503Z"
+        "timestamp": "2025-12-24T17:34:37.247Z"
       }
     },
     {
@@ -2000,7 +2000,7 @@
         "flow": 0.128,
         "temperature": 6.1,
         "trend": null,
-        "timestamp": "2025-12-24T17:01:36.505Z"
+        "timestamp": "2025-12-24T17:34:37.249Z"
       }
     },
     {
@@ -2013,9 +2013,9 @@
       "data": {
         "waterLevel": 97,
         "flow": 1.19,
-        "temperature": 10.5,
+        "temperature": 10.6,
         "trend": null,
-        "timestamp": "2025-12-24T17:01:36.507Z"
+        "timestamp": "2025-12-24T17:34:37.251Z"
       }
     },
     {
@@ -2030,7 +2030,7 @@
         "flow": null,
         "temperature": null,
         "trend": null,
-        "timestamp": "2025-12-24T17:01:36.508Z"
+        "timestamp": "2025-12-24T17:34:37.252Z"
       }
     },
     {
@@ -2043,9 +2043,9 @@
       "data": {
         "waterLevel": 82,
         "flow": 1.06,
-        "temperature": 7.3,
+        "temperature": 7.2,
         "trend": null,
-        "timestamp": "2025-12-24T17:01:36.510Z"
+        "timestamp": "2025-12-24T17:34:37.254Z"
       }
     },
     {
@@ -2060,7 +2060,7 @@
         "flow": null,
         "temperature": null,
         "trend": null,
-        "timestamp": "2025-12-24T17:01:36.512Z"
+        "timestamp": "2025-12-24T17:34:37.256Z"
       }
     },
     {
@@ -2073,9 +2073,9 @@
       "data": {
         "waterLevel": 97,
         "flow": 0.375,
-        "temperature": 2.8,
+        "temperature": 2.6,
         "trend": null,
-        "timestamp": "2025-12-24T17:01:36.514Z"
+        "timestamp": "2025-12-24T17:34:37.257Z"
       }
     },
     {
@@ -2088,9 +2088,9 @@
       "data": {
         "waterLevel": 52,
         "flow": 0.513,
-        "temperature": 4.4,
+        "temperature": 4.3,
         "trend": null,
-        "timestamp": "2025-12-24T17:01:36.515Z"
+        "timestamp": "2025-12-24T17:34:37.259Z"
       }
     },
     {
@@ -2105,7 +2105,7 @@
         "flow": null,
         "temperature": 7.8,
         "trend": null,
-        "timestamp": "2025-12-24T17:01:36.517Z"
+        "timestamp": "2025-12-24T17:34:37.261Z"
       }
     },
     {
@@ -2120,7 +2120,7 @@
         "flow": 3.97,
         "temperature": 7.4,
         "trend": null,
-        "timestamp": "2025-12-24T17:01:36.519Z"
+        "timestamp": "2025-12-24T17:34:37.262Z"
       }
     },
     {
@@ -2135,7 +2135,7 @@
         "flow": null,
         "temperature": 6.9,
         "trend": null,
-        "timestamp": "2025-12-24T17:01:36.521Z"
+        "timestamp": "2025-12-24T17:34:37.264Z"
       }
     },
     {
@@ -2150,7 +2150,7 @@
         "flow": 11.9,
         "temperature": 6.7,
         "trend": null,
-        "timestamp": "2025-12-24T17:01:36.522Z"
+        "timestamp": "2025-12-24T17:34:37.266Z"
       }
     },
     {
@@ -2165,7 +2165,7 @@
         "flow": 132,
         "temperature": 7.8,
         "trend": "narašča",
-        "timestamp": "2025-12-24T17:01:36.524Z"
+        "timestamp": "2025-12-24T17:34:37.267Z"
       }
     },
     {
@@ -2180,7 +2180,7 @@
         "flow": null,
         "temperature": null,
         "trend": null,
-        "timestamp": "2025-12-24T17:01:36.526Z"
+        "timestamp": "2025-12-24T17:34:37.269Z"
       }
     },
     {
@@ -2195,7 +2195,7 @@
         "flow": null,
         "temperature": null,
         "trend": null,
-        "timestamp": "2025-12-24T17:01:36.528Z"
+        "timestamp": "2025-12-24T17:34:37.270Z"
       }
     },
     {
@@ -2210,7 +2210,7 @@
         "flow": 2.35,
         "temperature": 7,
         "trend": null,
-        "timestamp": "2025-12-24T17:01:36.529Z"
+        "timestamp": "2025-12-24T17:34:37.272Z"
       }
     },
     {
@@ -2225,7 +2225,7 @@
         "flow": 3.94,
         "temperature": 8.4,
         "trend": null,
-        "timestamp": "2025-12-24T17:01:36.531Z"
+        "timestamp": "2025-12-24T17:34:37.274Z"
       }
     },
     {
@@ -2240,7 +2240,7 @@
         "flow": null,
         "temperature": null,
         "trend": null,
-        "timestamp": "2025-12-24T17:01:36.538Z"
+        "timestamp": "2025-12-24T17:34:37.282Z"
       }
     },
     {
@@ -2255,7 +2255,7 @@
         "flow": 0.904,
         "temperature": 5.9,
         "trend": null,
-        "timestamp": "2025-12-24T17:01:36.540Z"
+        "timestamp": "2025-12-24T17:34:37.283Z"
       }
     },
     {
@@ -2266,11 +2266,11 @@
         13.7668255
       ],
       "data": {
-        "waterLevel": 64,
-        "flow": 4.35,
-        "temperature": 7.5,
+        "waterLevel": 65,
+        "flow": 4.56,
+        "temperature": 7.4,
         "trend": null,
-        "timestamp": "2025-12-24T17:01:36.542Z"
+        "timestamp": "2025-12-24T17:34:37.285Z"
       }
     },
     {
@@ -2285,7 +2285,7 @@
         "flow": 0.066,
         "temperature": 7.6,
         "trend": null,
-        "timestamp": "2025-12-24T17:01:36.544Z"
+        "timestamp": "2025-12-24T17:34:37.287Z"
       }
     },
     {
@@ -2298,9 +2298,9 @@
       "data": {
         "waterLevel": 32,
         "flow": 2.78,
-        "temperature": 9.6,
+        "temperature": 9.7,
         "trend": null,
-        "timestamp": "2025-12-24T17:01:36.545Z"
+        "timestamp": "2025-12-24T17:34:37.288Z"
       }
     },
     {
@@ -2311,11 +2311,11 @@
         13.7619066
       ],
       "data": {
-        "waterLevel": 68,
-        "flow": 6.34,
+        "waterLevel": 69,
+        "flow": 6.65,
         "temperature": 8.6,
         "trend": null,
-        "timestamp": "2025-12-24T17:01:36.547Z"
+        "timestamp": "2025-12-24T17:34:37.290Z"
       }
     },
     {
@@ -2328,9 +2328,9 @@
       "data": {
         "waterLevel": 82,
         "flow": 6.74,
-        "temperature": 7.4,
+        "temperature": 7.3,
         "trend": null,
-        "timestamp": "2025-12-24T17:01:36.549Z"
+        "timestamp": "2025-12-24T17:34:37.292Z"
       }
     },
     {
@@ -2345,7 +2345,7 @@
         "flow": 6.82,
         "temperature": 7.3,
         "trend": null,
-        "timestamp": "2025-12-24T17:01:36.551Z"
+        "timestamp": "2025-12-24T17:34:37.293Z"
       }
     },
     {
@@ -2356,11 +2356,11 @@
         13.9724055
       ],
       "data": {
-        "waterLevel": 25,
-        "flow": 0.144,
-        "temperature": 6.1,
+        "waterLevel": 26,
+        "flow": 0.19,
+        "temperature": 6,
         "trend": null,
-        "timestamp": "2025-12-24T17:01:36.552Z"
+        "timestamp": "2025-12-24T17:34:37.295Z"
       }
     },
     {
@@ -2375,7 +2375,7 @@
         "flow": 1.41,
         "temperature": 7.8,
         "trend": null,
-        "timestamp": "2025-12-24T17:01:36.554Z"
+        "timestamp": "2025-12-24T17:34:37.296Z"
       }
     },
     {
@@ -2390,7 +2390,7 @@
         "flow": null,
         "temperature": 6.1,
         "trend": null,
-        "timestamp": "2025-12-24T17:01:36.556Z"
+        "timestamp": "2025-12-24T17:34:37.298Z"
       }
     },
     {
@@ -2403,9 +2403,9 @@
       "data": {
         "waterLevel": 110,
         "flow": 0.335,
-        "temperature": 7,
+        "temperature": 6.9,
         "trend": null,
-        "timestamp": "2025-12-24T17:01:36.558Z"
+        "timestamp": "2025-12-24T17:34:37.300Z"
       }
     },
     {
@@ -2418,9 +2418,9 @@
       "data": {
         "waterLevel": 110,
         "flow": 0.077,
-        "temperature": 6.2,
+        "temperature": 6.1,
         "trend": null,
-        "timestamp": "2025-12-24T17:01:36.561Z"
+        "timestamp": "2025-12-24T17:34:37.303Z"
       }
     },
     {
@@ -2435,7 +2435,7 @@
         "flow": null,
         "temperature": null,
         "trend": null,
-        "timestamp": "2025-12-24T17:01:36.563Z"
+        "timestamp": "2025-12-24T17:34:37.305Z"
       }
     },
     {
@@ -2446,11 +2446,11 @@
         14.1199591
       ],
       "data": {
-        "waterLevel": 103,
-        "flow": 0.556,
-        "temperature": 4.8,
+        "waterLevel": 104,
+        "flow": 0.601,
+        "temperature": 4.7,
         "trend": null,
-        "timestamp": "2025-12-24T17:01:36.566Z"
+        "timestamp": "2025-12-24T17:34:37.308Z"
       }
     },
     {
@@ -2463,9 +2463,9 @@
       "data": {
         "waterLevel": 97,
         "flow": 0.103,
-        "temperature": 5.2,
+        "temperature": 5.1,
         "trend": null,
-        "timestamp": "2025-12-24T17:01:36.568Z"
+        "timestamp": "2025-12-24T17:34:37.310Z"
       }
     },
     {
@@ -2476,11 +2476,11 @@
         14.5038838
       ],
       "data": {
-        "waterLevel": 126,
-        "flow": 1.12,
+        "waterLevel": 125,
+        "flow": 1.03,
         "temperature": 7,
         "trend": null,
-        "timestamp": "2025-12-24T17:01:36.570Z"
+        "timestamp": "2025-12-24T17:34:37.312Z"
       }
     },
     {
@@ -2493,9 +2493,9 @@
       "data": {
         "waterLevel": 94,
         "flow": 0.382,
-        "temperature": 8.4,
+        "temperature": 8.3,
         "trend": null,
-        "timestamp": "2025-12-24T17:01:36.575Z"
+        "timestamp": "2025-12-24T17:34:37.317Z"
       }
     },
     {
@@ -2510,7 +2510,7 @@
         "flow": 0.173,
         "temperature": 4.9,
         "trend": null,
-        "timestamp": "2025-12-24T17:01:36.577Z"
+        "timestamp": "2025-12-24T17:34:37.318Z"
       }
     },
     {
@@ -2525,7 +2525,7 @@
         "flow": 1.03,
         "temperature": 10.7,
         "trend": null,
-        "timestamp": "2025-12-24T17:01:36.579Z"
+        "timestamp": "2025-12-24T17:34:37.320Z"
       }
     },
     {
@@ -2538,9 +2538,9 @@
       "data": {
         "waterLevel": 136,
         "flow": null,
-        "temperature": 8.8,
+        "temperature": 8.7,
         "trend": null,
-        "timestamp": "2025-12-24T17:01:36.580Z"
+        "timestamp": "2025-12-24T17:34:37.322Z"
       }
     },
     {
@@ -2553,9 +2553,9 @@
       "data": {
         "waterLevel": 64,
         "flow": 0.153,
-        "temperature": 7,
+        "temperature": 6.9,
         "trend": null,
-        "timestamp": "2025-12-24T17:01:36.582Z"
+        "timestamp": "2025-12-24T17:34:37.323Z"
       }
     },
     {
@@ -2568,9 +2568,9 @@
       "data": {
         "waterLevel": 127,
         "flow": 0.123,
-        "temperature": 9,
+        "temperature": 8.9,
         "trend": null,
-        "timestamp": "2025-12-24T17:01:36.584Z"
+        "timestamp": "2025-12-24T17:34:37.325Z"
       }
     },
     {
@@ -2585,7 +2585,7 @@
         "flow": null,
         "temperature": null,
         "trend": null,
-        "timestamp": "2025-12-24T17:01:36.589Z"
+        "timestamp": "2025-12-24T17:34:37.330Z"
       }
     },
     {
@@ -2600,7 +2600,7 @@
         "flow": null,
         "temperature": null,
         "trend": null,
-        "timestamp": "2025-12-24T17:01:36.591Z"
+        "timestamp": "2025-12-24T17:34:37.332Z"
       }
     }
   ]
